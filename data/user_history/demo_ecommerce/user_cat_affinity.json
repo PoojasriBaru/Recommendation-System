@@ -1,0 +1,705 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "user_cat_affinity",
+  "created_at": "2026-10-12T15:45:50.502402+00:00",
+  "updated_at": "2026-10-12T15:49:23.607148+00:00",
+  "history_count": 8,
+  "interactions": [
+    {
+      "event_id": "evt_1791819950502",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:50.502025+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6731,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.659,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6549,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6541,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.654,
+          "category": "6"
+        },
+        {
+          "item_id": "301",
+          "rank": 6,
+          "display_name": "Beauty & Personal Care SKU-301 ($1499.58)",
+          "score": 0.6522,
+          "category": "3"
+        },
+        {
+          "item_id": "750",
+          "rank": 7,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.6481,
+          "category": "6"
+        },
+        {
+          "item_id": "532",
+          "rank": 8,
+          "display_name": "Books & Stationery SKU-532 ($1358.02)",
+          "score": 0.647,
+          "category": "5"
+        },
+        {
+          "item_id": "131",
+          "rank": 9,
+          "display_name": "Books & Stationery SKU-131 ($1688.33)",
+          "score": 0.6437,
+          "category": "5"
+        },
+        {
+          "item_id": "393",
+          "rank": 10,
+          "display_name": "Books & Stationery SKU-393 ($1546.97)",
+          "score": 0.6418,
+          "category": "5"
+        },
+        {
+          "item_id": "209",
+          "rank": 11,
+          "display_name": "Books & Stationery SKU-209 ($1001.42)",
+          "score": 0.6406,
+          "category": "5"
+        },
+        {
+          "item_id": "97",
+          "rank": 12,
+          "display_name": "Toys & Games SKU-97 ($1658.35)",
+          "score": 0.6378,
+          "category": "6"
+        },
+        {
+          "item_id": "562",
+          "rank": 13,
+          "display_name": "Toys & Games SKU-562 ($1840.14)",
+          "score": 0.6357,
+          "category": "6"
+        },
+        {
+          "item_id": "885",
+          "rank": 14,
+          "display_name": "Toys & Games SKU-885 ($1777.88)",
+          "score": 0.6337,
+          "category": "6"
+        },
+        {
+          "item_id": "728",
+          "rank": 15,
+          "display_name": "Home & Kitchen SKU-728 ($1386.53)",
+          "score": 0.6336,
+          "category": "2"
+        },
+        {
+          "item_id": "544",
+          "rank": 16,
+          "display_name": "Books & Stationery SKU-544 ($1442.58)",
+          "score": 0.6331,
+          "category": "5"
+        },
+        {
+          "item_id": "281",
+          "rank": 17,
+          "display_name": "Beauty & Personal Care SKU-281 ($516.22)",
+          "score": 0.6281,
+          "category": "3"
+        },
+        {
+          "item_id": "177",
+          "rank": 18,
+          "display_name": "Automotive SKU-177 ($1063.94)",
+          "score": 0.6211,
+          "category": "7"
+        },
+        {
+          "item_id": "91",
+          "rank": 19,
+          "display_name": "Toys & Games SKU-91 ($464.85)",
+          "score": 0.6208,
+          "category": "6"
+        },
+        {
+          "item_id": "541",
+          "rank": 20,
+          "display_name": "Beauty & Personal Care SKU-541 ($1263.09)",
+          "score": 0.6199,
+          "category": "3"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 529.47,
+        "recommendation_id": "rec_5e6b7d6538a9",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791819950519",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T15:45:50.519027+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": null,
+        "recommendation_id": null
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791819950544",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T15:45:50.544762+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": null,
+        "recommendation_id": null
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791819950589",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:50.589994+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.9999,
+          "category": "2"
+        },
+        {
+          "item_id": "728",
+          "rank": 2,
+          "display_name": "Home & Kitchen SKU-728 ($1386.53)",
+          "score": 0.773,
+          "category": "2"
+        },
+        {
+          "item_id": "577",
+          "rank": 3,
+          "display_name": "Home & Kitchen SKU-577 ($1311.07)",
+          "score": 0.7578,
+          "category": "2"
+        },
+        {
+          "item_id": "215",
+          "rank": 4,
+          "display_name": "Home & Kitchen SKU-215 ($1692.85)",
+          "score": 0.7366,
+          "category": "2"
+        },
+        {
+          "item_id": "685",
+          "rank": 5,
+          "display_name": "Home & Kitchen SKU-685 ($1202.69)",
+          "score": 0.7347,
+          "category": "2"
+        },
+        {
+          "item_id": "312",
+          "rank": 6,
+          "display_name": "Home & Kitchen SKU-312 ($1201.13)",
+          "score": 0.7198,
+          "category": "2"
+        },
+        {
+          "item_id": "805",
+          "rank": 7,
+          "display_name": "Home & Kitchen SKU-805 ($1168.17)",
+          "score": 0.7161,
+          "category": "2"
+        },
+        {
+          "item_id": "592",
+          "rank": 8,
+          "display_name": "Home & Kitchen SKU-592 ($1116.22)",
+          "score": 0.7149,
+          "category": "2"
+        },
+        {
+          "item_id": "824",
+          "rank": 9,
+          "display_name": "Home & Kitchen SKU-824 ($1840.93)",
+          "score": 0.7133,
+          "category": "2"
+        },
+        {
+          "item_id": "232",
+          "rank": 10,
+          "display_name": "Home & Kitchen SKU-232 ($1101.59)",
+          "score": 0.7112,
+          "category": "2"
+        },
+        {
+          "item_id": "505",
+          "rank": 11,
+          "display_name": "Home & Kitchen SKU-505 ($1733.31)",
+          "score": 0.7085,
+          "category": "2"
+        },
+        {
+          "item_id": "249",
+          "rank": 12,
+          "display_name": "Home & Kitchen SKU-249 ($1296.68)",
+          "score": 0.7065,
+          "category": "2"
+        },
+        {
+          "item_id": "897",
+          "rank": 13,
+          "display_name": "Home & Kitchen SKU-897 ($889.72)",
+          "score": 0.7058,
+          "category": "2"
+        },
+        {
+          "item_id": "377",
+          "rank": 14,
+          "display_name": "Home & Kitchen SKU-377 ($1071.01)",
+          "score": 0.7053,
+          "category": "2"
+        },
+        {
+          "item_id": "60",
+          "rank": 15,
+          "display_name": "Home & Kitchen SKU-60 ($542.44)",
+          "score": 0.7018,
+          "category": "2"
+        },
+        {
+          "item_id": "352",
+          "rank": 16,
+          "display_name": "Home & Kitchen SKU-352 ($1807.58)",
+          "score": 0.7014,
+          "category": "2"
+        },
+        {
+          "item_id": "691",
+          "rank": 17,
+          "display_name": "Home & Kitchen SKU-691 ($1542.15)",
+          "score": 0.6967,
+          "category": "2"
+        },
+        {
+          "item_id": "98",
+          "rank": 18,
+          "display_name": "Home & Kitchen SKU-98 ($1391.55)",
+          "score": 0.6864,
+          "category": "2"
+        },
+        {
+          "item_id": "118",
+          "rank": 19,
+          "display_name": "Home & Kitchen SKU-118 ($1672.47)",
+          "score": 0.6851,
+          "category": "2"
+        },
+        {
+          "item_id": "375",
+          "rank": 20,
+          "display_name": "Home & Kitchen SKU-375 ($1769.26)",
+          "score": 0.6848,
+          "category": "2"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 22.51,
+        "recommendation_id": "rec_db5be412c19c",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820163498",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:23.498631+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6731,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.659,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6549,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6541,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.654,
+          "category": "6"
+        },
+        {
+          "item_id": "301",
+          "rank": 6,
+          "display_name": "Beauty & Personal Care SKU-301 ($1499.58)",
+          "score": 0.6522,
+          "category": "3"
+        },
+        {
+          "item_id": "750",
+          "rank": 7,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.6481,
+          "category": "6"
+        },
+        {
+          "item_id": "532",
+          "rank": 8,
+          "display_name": "Books & Stationery SKU-532 ($1358.02)",
+          "score": 0.647,
+          "category": "5"
+        },
+        {
+          "item_id": "131",
+          "rank": 9,
+          "display_name": "Books & Stationery SKU-131 ($1688.33)",
+          "score": 0.6437,
+          "category": "5"
+        },
+        {
+          "item_id": "393",
+          "rank": 10,
+          "display_name": "Books & Stationery SKU-393 ($1546.97)",
+          "score": 0.6418,
+          "category": "5"
+        },
+        {
+          "item_id": "209",
+          "rank": 11,
+          "display_name": "Books & Stationery SKU-209 ($1001.42)",
+          "score": 0.6406,
+          "category": "5"
+        },
+        {
+          "item_id": "97",
+          "rank": 12,
+          "display_name": "Toys & Games SKU-97 ($1658.35)",
+          "score": 0.6378,
+          "category": "6"
+        },
+        {
+          "item_id": "562",
+          "rank": 13,
+          "display_name": "Toys & Games SKU-562 ($1840.14)",
+          "score": 0.6357,
+          "category": "6"
+        },
+        {
+          "item_id": "885",
+          "rank": 14,
+          "display_name": "Toys & Games SKU-885 ($1777.88)",
+          "score": 0.6337,
+          "category": "6"
+        },
+        {
+          "item_id": "728",
+          "rank": 15,
+          "display_name": "Home & Kitchen SKU-728 ($1386.53)",
+          "score": 0.6336,
+          "category": "2"
+        },
+        {
+          "item_id": "544",
+          "rank": 16,
+          "display_name": "Books & Stationery SKU-544 ($1442.58)",
+          "score": 0.6331,
+          "category": "5"
+        },
+        {
+          "item_id": "281",
+          "rank": 17,
+          "display_name": "Beauty & Personal Care SKU-281 ($516.22)",
+          "score": 0.6281,
+          "category": "3"
+        },
+        {
+          "item_id": "177",
+          "rank": 18,
+          "display_name": "Automotive SKU-177 ($1063.94)",
+          "score": 0.6211,
+          "category": "7"
+        },
+        {
+          "item_id": "91",
+          "rank": 19,
+          "display_name": "Toys & Games SKU-91 ($464.85)",
+          "score": 0.6208,
+          "category": "6"
+        },
+        {
+          "item_id": "541",
+          "rank": 20,
+          "display_name": "Beauty & Personal Care SKU-541 ($1263.09)",
+          "score": 0.6199,
+          "category": "3"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 514.92,
+        "recommendation_id": "rec_ade984c3526c",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820163522",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T15:49:23.522842+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": null,
+        "recommendation_id": null
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791820163551",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T15:49:23.551668+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": null,
+        "recommendation_id": null
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791820163597",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:23.597951+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.9999,
+          "category": "2"
+        },
+        {
+          "item_id": "728",
+          "rank": 2,
+          "display_name": "Home & Kitchen SKU-728 ($1386.53)",
+          "score": 0.773,
+          "category": "2"
+        },
+        {
+          "item_id": "577",
+          "rank": 3,
+          "display_name": "Home & Kitchen SKU-577 ($1311.07)",
+          "score": 0.7578,
+          "category": "2"
+        },
+        {
+          "item_id": "215",
+          "rank": 4,
+          "display_name": "Home & Kitchen SKU-215 ($1692.85)",
+          "score": 0.7366,
+          "category": "2"
+        },
+        {
+          "item_id": "685",
+          "rank": 5,
+          "display_name": "Home & Kitchen SKU-685 ($1202.69)",
+          "score": 0.7347,
+          "category": "2"
+        },
+        {
+          "item_id": "312",
+          "rank": 6,
+          "display_name": "Home & Kitchen SKU-312 ($1201.13)",
+          "score": 0.7198,
+          "category": "2"
+        },
+        {
+          "item_id": "805",
+          "rank": 7,
+          "display_name": "Home & Kitchen SKU-805 ($1168.17)",
+          "score": 0.7161,
+          "category": "2"
+        },
+        {
+          "item_id": "592",
+          "rank": 8,
+          "display_name": "Home & Kitchen SKU-592 ($1116.22)",
+          "score": 0.7149,
+          "category": "2"
+        },
+        {
+          "item_id": "824",
+          "rank": 9,
+          "display_name": "Home & Kitchen SKU-824 ($1840.93)",
+          "score": 0.7133,
+          "category": "2"
+        },
+        {
+          "item_id": "232",
+          "rank": 10,
+          "display_name": "Home & Kitchen SKU-232 ($1101.59)",
+          "score": 0.7112,
+          "category": "2"
+        },
+        {
+          "item_id": "505",
+          "rank": 11,
+          "display_name": "Home & Kitchen SKU-505 ($1733.31)",
+          "score": 0.7085,
+          "category": "2"
+        },
+        {
+          "item_id": "249",
+          "rank": 12,
+          "display_name": "Home & Kitchen SKU-249 ($1296.68)",
+          "score": 0.7065,
+          "category": "2"
+        },
+        {
+          "item_id": "897",
+          "rank": 13,
+          "display_name": "Home & Kitchen SKU-897 ($889.72)",
+          "score": 0.7058,
+          "category": "2"
+        },
+        {
+          "item_id": "377",
+          "rank": 14,
+          "display_name": "Home & Kitchen SKU-377 ($1071.01)",
+          "score": 0.7053,
+          "category": "2"
+        },
+        {
+          "item_id": "60",
+          "rank": 15,
+          "display_name": "Home & Kitchen SKU-60 ($542.44)",
+          "score": 0.7018,
+          "category": "2"
+        },
+        {
+          "item_id": "352",
+          "rank": 16,
+          "display_name": "Home & Kitchen SKU-352 ($1807.58)",
+          "score": 0.7014,
+          "category": "2"
+        },
+        {
+          "item_id": "691",
+          "rank": 17,
+          "display_name": "Home & Kitchen SKU-691 ($1542.15)",
+          "score": 0.6967,
+          "category": "2"
+        },
+        {
+          "item_id": "98",
+          "rank": 18,
+          "display_name": "Home & Kitchen SKU-98 ($1391.55)",
+          "score": 0.6864,
+          "category": "2"
+        },
+        {
+          "item_id": "118",
+          "rank": 19,
+          "display_name": "Home & Kitchen SKU-118 ($1672.47)",
+          "score": 0.6851,
+          "category": "2"
+        },
+        {
+          "item_id": "375",
+          "rank": 20,
+          "display_name": "Home & Kitchen SKU-375 ($1769.26)",
+          "score": 0.6848,
+          "category": "2"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 21.88,
+        "recommendation_id": "rec_58927817257b",
+        "status": "cold_start"
+      },
+      "feedback": null
+    }
+  ]
+}

@@ -1,0 +1,2312 @@
+{
+  "tenant_id": "fashion_client",
+  "user_id": "5",
+  "created_at": "2026-10-12T18:41:19.799595+00:00",
+  "updated_at": "2026-10-12T18:43:57.886420+00:00",
+  "history_count": 62,
+  "interactions": [
+    {
+      "event_id": "evt_1791830479798",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:19.798855+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830479838",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:19.838491+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830490320",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-12T18:41:30.320023+00:00",
+      "dataset_id": "CompletionReport-2025.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "CompletionReport-2025.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830490814",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:30.815008+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.938
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.807
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.807
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.231
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830490847",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:30.847679+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830502346",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T18:41:42.346449+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830502547",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:42.547861+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.968
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.887
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.887
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.221
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830502587",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:42.587183+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830509124",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T18:41:49.124552+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830509351",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:49.351674+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.968
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.887
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.887
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.221
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830509386",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:49.386104+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830517590",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T18:41:57.590828+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.968,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830517797",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:57.797265+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.917
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.867
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.181
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830517828",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:57.828495+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830522299",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T18:42:02.299038+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.917,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830524985",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T18:42:04.985038+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.181,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830525166",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:05.166670+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.947
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.897
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.261
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830525201",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:05.201310+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830529633",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:09.633619+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.947
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.897
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.261
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830529671",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:09.671314+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830532825",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:12.825594+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.947
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.897
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.261
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830532858",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:12.858825+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830533918",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:13.918464+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.947
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.897
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.261
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830533951",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:13.951451+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830535532",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T18:42:15.532432+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830535708",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:15.708681+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830535748",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:15.748773+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830538025",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:18.025805+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830538057",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:18.057026+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830539106",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:19.107006+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830539147",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:19.147497+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830542446",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:22.446434+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830542494",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:22.494964+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830545708",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:25.708216+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830545741",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:25.741300+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830546882",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:26.882636+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830546920",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:26.920308+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830548035",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:28.035504+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830548078",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:28.078768+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830553544",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:33.544539+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830553586",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:33.586127+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830556253",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:36.253056+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830556293",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:36.293226+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830562995",
+      "entry_type": "unhelpful_feedback",
+      "timestamp": "2026-10-12T18:42:42.995219+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "custom_donut_Learning activity - Duration",
+          "chart_type": "donut",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "rating": "unhelpful",
+        "score": 1,
+        "score_source": "user_custom"
+      },
+      "feedback": "unhelpful"
+    },
+    {
+      "event_id": "evt_1791830563248",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:43.248848+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830563306",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:43.306041+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830565476",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:45.476204+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830565528",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:45.528021+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830569194",
+      "entry_type": "helpful_feedback",
+      "timestamp": "2026-10-12T18:42:49.194235+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "custom_line_Learning activity - Duration",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "rating": "helpful",
+        "score": 1,
+        "score_source": "user_custom"
+      },
+      "feedback": "helpful"
+    },
+    {
+      "event_id": "evt_1791830569433",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:49.433666+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_bar_Learning activity - ID_Learning activity - Duration_agg",
+          "chart_type": "bar",
+          "title": "Average Learning Activity - Duration by Learning Activity - Id",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.251
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830569477",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:49.477908+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830573682",
+      "entry_type": "helpful_feedback",
+      "timestamp": "2026-10-12T18:42:53.682125+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "custom_line_Learning activity - Duration",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "rating": "helpful",
+        "score": 1,
+        "score_source": "user_custom"
+      },
+      "feedback": "helpful"
+    },
+    {
+      "event_id": "evt_1791830573935",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:53.935411+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_line_Completed date_Learning activity - Duration",
+          "chart_type": "line",
+          "title": "Learning Activity - Duration Trend over Completed Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.319
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830573974",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:53.974447+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830574463",
+      "entry_type": "helpful_feedback",
+      "timestamp": "2026-10-12T18:42:54.463726+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "custom_line_Learning activity - Duration",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "rating": "helpful",
+        "score": 1,
+        "score_source": "user_custom"
+      },
+      "feedback": "helpful"
+    },
+    {
+      "event_id": "evt_1791830574692",
+      "entry_type": "helpful_feedback",
+      "timestamp": "2026-10-12T18:42:54.692836+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "custom_line_Learning activity - Duration",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "rating": "helpful",
+        "score": 1,
+        "score_source": "user_custom"
+      },
+      "feedback": "helpful"
+    },
+    {
+      "event_id": "evt_1791830574712",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:54.712145+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_line_Completed date_Learning activity - Duration",
+          "chart_type": "line",
+          "title": "Learning Activity - Duration Trend over Completed Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.359
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830574826",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:54.826397+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830574912",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:42:54.912660+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.977
+        },
+        {
+          "candidate_id": "cand_line_Completed date_Learning activity - Duration",
+          "chart_type": "line",
+          "title": "Learning Activity - Duration Trend over Completed Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.399
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830574951",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:42:54.951622+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830637817",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:43:57.817870+00:00",
+      "dataset_id": "dataset_42",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.927
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.927
+        },
+        {
+          "candidate_id": "cand_line_Completed date_Learning activity - Duration",
+          "chart_type": "line",
+          "title": "Learning Activity - Duration Trend over Completed Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.349
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_42"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830637864",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:43:57.864726+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    }
+  ]
+}

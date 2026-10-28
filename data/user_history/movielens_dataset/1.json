@@ -1,0 +1,2791 @@
+{
+  "tenant_id": "movielens_dataset",
+  "user_id": "1",
+  "created_at": "2026-10-12T15:45:48.868926+00:00",
+  "updated_at": "2026-10-26T09:17:45.072537+00:00",
+  "history_count": 97,
+  "interactions": [
+    {
+      "event_id": "evt_1791819948868",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:48.868520+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "rank": 1,
+          "display_name": "Valiant (2005)",
+          "score": 0.9728,
+          "category": null
+        },
+        {
+          "item_id": "27820",
+          "rank": 2,
+          "display_name": "Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",
+          "score": 0.9724,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 172.96,
+        "recommendation_id": "rec_0143d46273b2",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820161828",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:21.828981+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "rank": 1,
+          "display_name": "Valiant (2005)",
+          "score": 0.9728,
+          "category": null
+        },
+        {
+          "item_id": "27820",
+          "rank": 2,
+          "display_name": "Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",
+          "score": 0.9724,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 152.79,
+        "recommendation_id": "rec_15abe8f660b8",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142623467",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:23:43.467039+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142623519",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:23:43.519783+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142624352",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:23:44.352236+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142624401",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:23:44.401387+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142651584",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:24:11.584998+00:00",
+      "dataset_id": "dataset_37",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_bar_feature_x_metric_y_agg",
+          "chart_type": "bar",
+          "title": "Average Metric Y by Feature X",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.479
+        },
+        {
+          "candidate_id": "cand_donut_feature_x",
+          "chart_type": "donut",
+          "title": "Feature X Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.479
+        },
+        {
+          "candidate_id": "cand_treemap_feature_x",
+          "chart_type": "treemap",
+          "title": "Feature X Hierarchical Treemap",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.479
+        },
+        {
+          "candidate_id": "cand_bar_feature_x_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Feature X",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.243
+        },
+        {
+          "candidate_id": "cand_box_feature_x_metric_y",
+          "chart_type": "box",
+          "title": "Metric Y Distribution by Feature X",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.109
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_37"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142651638",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:24:11.638588+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bar_feature_x_metric_y_agg",
+          "chart_type": "bar",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 5,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142655623",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:15.623049+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_donut_feature_x",
+          "chart_type": "donut",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.479,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142655682",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:24:15.682210+00:00",
+      "dataset_id": "dataset_37",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_donut_feature_x",
+          "chart_type": "donut",
+          "title": "Feature X Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.509
+        },
+        {
+          "candidate_id": "cand_bar_feature_x_metric_y_agg",
+          "chart_type": "bar",
+          "title": "Average Metric Y by Feature X",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.479
+        },
+        {
+          "candidate_id": "cand_treemap_feature_x",
+          "chart_type": "treemap",
+          "title": "Feature X Hierarchical Treemap",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.479
+        },
+        {
+          "candidate_id": "cand_bar_feature_x_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Feature X",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.243
+        },
+        {
+          "candidate_id": "cand_box_feature_x_metric_y",
+          "chart_type": "box",
+          "title": "Metric Y Distribution by Feature X",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.109
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_37"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142655733",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:24:15.733275+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_donut_feature_x",
+          "chart_type": "donut",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 5,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142670454",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:30.454533+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_donut_feature_x",
+          "chart_type": "donut",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.509,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142672971",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:32.971937+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_donut_feature_x",
+          "chart_type": "donut",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.509,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142673259",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:24:33.259769+00:00",
+      "dataset_id": "dataset_9",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "title": "User Id vs Target Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "title": "User Id vs Target (Sized by Rating)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_id_rating",
+          "chart_type": "scatter",
+          "title": "User Id vs Rating Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.984
+        },
+        {
+          "candidate_id": "cand_scatter_genre_action_genre_adventure",
+          "chart_type": "scatter",
+          "title": "Genre Action vs Genre Adventure Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.442
+        },
+        {
+          "candidate_id": "cand_line_interaction_datetime_user_id",
+          "chart_type": "line",
+          "title": "User Id Trend over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.122
+        },
+        {
+          "candidate_id": "cand_area_interaction_datetime_user_id",
+          "chart_type": "area",
+          "title": "User Id Cumulative Area over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.122
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_9"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142673322",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:24:33.322356+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142675827",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:35.827206+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142678704",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:24:38.704812+00:00",
+      "dataset_id": "dataset_9",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "title": "User Id vs Target Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_id_rating",
+          "chart_type": "scatter",
+          "title": "User Id vs Rating Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "title": "User Id vs Target (Sized by Rating)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_genre_action_genre_adventure",
+          "chart_type": "scatter",
+          "title": "Genre Action vs Genre Adventure Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.442
+        },
+        {
+          "candidate_id": "cand_line_interaction_datetime_user_id",
+          "chart_type": "line",
+          "title": "User Id Trend over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.172
+        },
+        {
+          "candidate_id": "cand_area_interaction_datetime_user_id",
+          "chart_type": "area",
+          "title": "User Id Cumulative Area over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.172
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_9"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142678959",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:24:38.959717+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142684465",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:44.465860+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142687178",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:47.178194+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142688981",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:48.981230+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_genre_action_genre_adventure",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.442,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142691827",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:24:51.827116+00:00",
+      "dataset_id": "dataset_9",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "title": "User Id vs Target Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_id_rating",
+          "chart_type": "scatter",
+          "title": "User Id vs Rating Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "title": "User Id vs Target (Sized by Rating)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_genre_action_genre_adventure",
+          "chart_type": "scatter",
+          "title": "Genre Action vs Genre Adventure Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.572
+        },
+        {
+          "candidate_id": "cand_line_interaction_datetime_user_id",
+          "chart_type": "line",
+          "title": "User Id Trend over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.122
+        },
+        {
+          "candidate_id": "cand_area_interaction_datetime_user_id",
+          "chart_type": "area",
+          "title": "User Id Cumulative Area over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.122
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_9"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142692159",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:24:52.159155+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142697080",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:24:57.080329+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_area_interaction_datetime_user_id",
+          "chart_type": "area",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.122,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142701996",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:25:01.996904+00:00",
+      "dataset_id": "dataset_9",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "title": "User Id vs Target Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_id_rating",
+          "chart_type": "scatter",
+          "title": "User Id vs Rating Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_user_id_target",
+          "chart_type": "bubble",
+          "title": "User Id vs Target (Sized by Rating)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_genre_action_genre_adventure",
+          "chart_type": "scatter",
+          "title": "Genre Action vs Genre Adventure Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.472
+        },
+        {
+          "candidate_id": "cand_area_interaction_datetime_user_id",
+          "chart_type": "area",
+          "title": "User Id Cumulative Area over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.252
+        },
+        {
+          "candidate_id": "cand_line_interaction_datetime_user_id",
+          "chart_type": "line",
+          "title": "User Id Trend over Interaction Datetime",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.222
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_9"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142713390",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:25:13.390300+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_id_target",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142758121",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-16T09:25:58.121271+00:00",
+      "dataset_id": "graph_practice_dataset.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "graph_practice_dataset.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142783060",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:26:23.060768+00:00",
+      "dataset_id": "dataset_45",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.986
+        },
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.941
+        },
+        {
+          "candidate_id": "cand_bar_department_month_agg",
+          "chart_type": "bar",
+          "title": "Average Month by Department",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.161
+        },
+        {
+          "candidate_id": "cand_donut_department",
+          "chart_type": "donut",
+          "title": "Department Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.142
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_45"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142783096",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:26:23.096814+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142806996",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:26:46.996069+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142807189",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:26:47.189278+00:00",
+      "dataset_id": "dataset_45",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_department",
+          "chart_type": "donut",
+          "title": "Department Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.142
+        },
+        {
+          "candidate_id": "cand_area_month_record_id",
+          "chart_type": "area",
+          "title": "Record Id Cumulative Area over Month",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.115
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_45"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142807246",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:26:47.246716+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142810466",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-16T09:26:50.466967+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142816815",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:26:56.815979+00:00",
+      "dataset_id": "dataset_45",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_experience_years",
+          "chart_type": "scatter",
+          "title": "Age vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.141
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_45"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142816906",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:26:56.906056+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142827135",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:27:07.135631+00:00",
+      "dataset_id": "dataset_45",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_experience_years",
+          "chart_type": "scatter",
+          "title": "Age vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.141
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_45"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142827199",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:27:07.199457+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142857430",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-16T09:27:37.430742+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "rank": 1,
+          "display_name": "Valiant (2005)",
+          "score": 0.9728,
+          "category": null
+        },
+        {
+          "item_id": "27820",
+          "rank": 2,
+          "display_name": "Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",
+          "score": 0.9724,
+          "category": null
+        },
+        {
+          "item_id": "45210",
+          "rank": 3,
+          "display_name": "United 93 (2006)",
+          "score": 0.969,
+          "category": null
+        },
+        {
+          "item_id": "25773",
+          "rank": 4,
+          "display_name": "Little Caesar (1931)",
+          "score": 0.968,
+          "category": null
+        },
+        {
+          "item_id": "3429",
+          "rank": 5,
+          "display_name": "Creature Comforts (1989)",
+          "score": 0.9676,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 628.39,
+        "recommendation_id": "rec_e3fa81746036",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142857537",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:37.537329+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142857562",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:37.562098+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142857562",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:37.562941+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142857578",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:37.578525+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142857601",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:37.601728+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142859016",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:27:39.016570+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142859035",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:27:39.035747+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142859051",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:27:39.051359+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142861529",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:27:41.529623+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142861548",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:27:41.548177+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142871565",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-16T09:27:51.565275+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1792142873369",
+      "entry_type": "product_feedback_add_to_cart",
+      "timestamp": "2026-10-16T09:27:53.369356+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "ADD_TO_CART"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "ADD_TO_CART"
+    },
+    {
+      "event_id": "evt_1792142876983",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:27:56.983290+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142877500",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:27:57.500351+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142877538",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:27:57.538217+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142877540",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:27:57.540069+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e3fa81746036"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142877760",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-16T09:27:57.760921+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "rank": 1,
+          "display_name": "Valiant (2005)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "45210",
+          "rank": 2,
+          "display_name": "United 93 (2006)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "27820",
+          "rank": 3,
+          "display_name": "Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "49793",
+          "rank": 4,
+          "display_name": "We Are Marshall (2006)",
+          "score": 0.9676,
+          "category": null
+        },
+        {
+          "item_id": "1507",
+          "rank": 5,
+          "display_name": "Paradise Road (1997)",
+          "score": 0.9664,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 773.8,
+        "recommendation_id": "rec_e354001b992f",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142877871",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:57.871168+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142877886",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:57.886065+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142877903",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:57.903469+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49793",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142877914",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:57.914651+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "1507",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142877936",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:27:57.936357+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142879383",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:27:59.383289+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142879402",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:27:59.402813+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142879418",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:27:59.418383+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142881882",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:28:01.882657+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "45210",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142881905",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:28:01.905568+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "36397",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_e354001b992f"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005300669",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:01:40.669157+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "title": "Session Duration Bucket Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.107
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005300752",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:01:40.752419+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005301765",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:01:41.765915+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "title": "Session Duration Bucket Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.107
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005301817",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:01:41.817741+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005325031",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:02:05.031935+00:00",
+      "dataset_id": "dataset_22",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "title": "Session Duration Bucket Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.107
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_22"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005325095",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:02:05.095324+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005345614",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:02:25.614122+00:00",
+      "dataset_id": "upload_visual_analytics_user_valid_test.csv",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_col_a_col_b",
+          "chart_type": "scatter",
+          "title": "Col A vs Col B Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.809
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "upload_visual_analytics_user_valid_test.csv"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005345671",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:02:25.671276+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_col_a_col_b",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 1,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005350986",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:02:30.986297+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_col_a_col_b",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.809,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005351090",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:02:31.090046+00:00",
+      "dataset_id": "upload_visual_analytics_user_valid_test.csv",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_col_a_col_b",
+          "chart_type": "scatter",
+          "title": "Col A vs Col B Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.839
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "upload_visual_analytics_user_valid_test.csv"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005351149",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:02:31.149813+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_col_a_col_b",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 1,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006147303",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:15:47.303883+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "title": "Session Duration Bucket Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.107
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006147364",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:15:47.364719+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006150552",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:15:50.552380+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "title": "Session Duration Bucket Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.107
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006150655",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:15:50.655332+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006151718",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:15:51.718193+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "title": "Session Duration Bucket Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.107
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006151760",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:15:51.760967+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006178657",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-26T09:16:18.657202+00:00",
+      "dataset_id": "industry.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "industry.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006193818",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:16:33.818928+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006195214",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:16:35.214535+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006205457",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:16:45.457254+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006208800",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:16:48.800466+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006213111",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:16:53.111827+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_donut_session_duration_bucket",
+          "chart_type": "donut",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.107,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006242117",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-26T09:17:22.117514+00:00",
+      "dataset_id": "CompletionReport-2025.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "CompletionReport-2025.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006242645",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:17:22.645089+00:00",
+      "dataset_id": "dataset_48",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.957
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.957
+        },
+        {
+          "candidate_id": "cand_donut_Learning activity - ID",
+          "chart_type": "donut",
+          "title": "Learning Activity - Id Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.341
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_48"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006242702",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:17:22.702070+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006252187",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:17:32.187670+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006252441",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:17:32.441736+00:00",
+      "dataset_id": "dataset_48",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Is Required Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "title": "Learning Activity - Duration vs Required Requestor Email Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "title": "Is Required vs Required By Date Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_Learning activity - Duration_Is Required",
+          "chart_type": "bubble",
+          "title": "Learning Activity - Duration vs Is Required (Sized by Required By Date)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_donut_Learning activity - ID",
+          "chart_type": "donut",
+          "title": "Learning Activity - Id Share & Composition",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.341
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_48"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006252495",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:17:32.495814+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Is Required",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006256129",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:17:36.129092+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Required By Date",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006259851",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:17:39.851874+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Learning activity - Duration_Required Requestor Email",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006265037",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:17:45.037211+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_Is Required_Required By Date",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    }
+  ]
+}

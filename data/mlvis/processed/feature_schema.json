@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "num_features": 26,
+  "feature_names": [
+    "ds_log_rows",
+    "ds_num_cols",
+    "ds_numeric_ratio",
+    "ds_categorical_ratio",
+    "x_is_numeric",
+    "x_is_categorical",
+    "x_is_datetime",
+    "x_unique_ratio",
+    "x_missing_ratio",
+    "x_entropy",
+    "x_skewness",
+    "x_mean_magnitude",
+    "y_is_numeric",
+    "y_is_categorical",
+    "y_is_datetime",
+    "y_unique_ratio",
+    "y_missing_ratio",
+    "y_entropy",
+    "y_skewness",
+    "y_mean_magnitude",
+    "xy_is_both_numeric",
+    "xy_is_cat_num",
+    "xy_is_num_cat",
+    "xy_is_both_cat",
+    "xy_correlation",
+    "xy_cardinality_ratio"
+  ],
+  "chart_types": [
+    "bar",
+    "line",
+    "scatter",
+    "box",
+    "histogram",
+    "heatmap"
+  ],
+  "chart_type_to_id": {
+    "bar": 0,
+    "line": 1,
+    "scatter": 2,
+    "box": 3,
+    "histogram": 4,
+    "heatmap": 5
+  },
+  "id_to_chart_type": {
+    "0": "bar",
+    "1": "line",
+    "2": "scatter",
+    "3": "box",
+    "4": "histogram",
+    "5": "heatmap"
+  },
+  "total_instances": 5532,
+  "total_datasets": 927,
+  "splits": {
+    "train_samples": 3721,
+    "train_datasets": 648,
+    "val_samples": 1028,
+    "val_datasets": 139,
+    "test_samples": 783,
+    "test_datasets": 140
+  }
+}

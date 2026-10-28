@@ -1,0 +1,623 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "5",
+  "created_at": "2026-10-15T14:51:46.110840+00:00",
+  "updated_at": "2026-10-15T14:52:40.778173+00:00",
+  "history_count": 17,
+  "interactions": [
+    {
+      "event_id": "evt_1792075906110",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:51:46.110147+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.954
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075906678",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:51:46.678282+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075941699",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:52:21.699601+00:00",
+      "dataset_id": "dataset_40",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_40"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075941731",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:52:21.731080+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075944917",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:52:24.917391+00:00",
+      "dataset_id": "dataset_44",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.965
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.956
+        },
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.911
+        },
+        {
+          "candidate_id": "cand_bar_department_month_agg",
+          "chart_type": "bar",
+          "title": "Average Month by Department",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.161
+        },
+        {
+          "candidate_id": "cand_bar_department_frequency",
+          "chart_type": "bar",
+          "title": "Interaction Volume by Department",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.111
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_44"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075944959",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:52:24.959879+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075948744",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-15T14:52:28.744570+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075948970",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:52:28.970775+00:00",
+      "dataset_id": "dataset_44",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.956
+        },
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.911
+        },
+        {
+          "candidate_id": "cand_line_month_record_id",
+          "chart_type": "line",
+          "title": "Record Id Trend over Month",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.135
+        },
+        {
+          "candidate_id": "cand_area_month_record_id",
+          "chart_type": "area",
+          "title": "Record Id Cumulative Area over Month",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.135
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_44"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075949118",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:52:29.118784+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075951070",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-15T14:52:31.070294+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075954353",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-15T14:52:34.353412+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.956,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075954562",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:52:34.562991+00:00",
+      "dataset_id": "dataset_44",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        },
+        {
+          "candidate_id": "cand_scatter_age_experience_years",
+          "chart_type": "scatter",
+          "title": "Age vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.081
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_44"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075954690",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:52:34.690102+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075957611",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:52:37.611305+00:00",
+      "dataset_id": "dataset_44",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        },
+        {
+          "candidate_id": "cand_scatter_age_experience_years",
+          "chart_type": "scatter",
+          "title": "Age vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.081
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_44"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075957650",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:52:37.650825+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075960725",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:52:40.725890+00:00",
+      "dataset_id": "dataset_44",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        },
+        {
+          "candidate_id": "cand_scatter_age_experience_years",
+          "chart_type": "scatter",
+          "title": "Age vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.081
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_44"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075960760",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:52:40.760423+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    }
+  ]
+}

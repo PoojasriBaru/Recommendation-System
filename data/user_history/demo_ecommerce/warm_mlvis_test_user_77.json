@@ -1,0 +1,177 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "warm_mlvis_test_user_77",
+  "created_at": "2026-10-12T15:59:01.895657+00:00",
+  "updated_at": "2026-10-12T15:59:02.273254+00:00",
+  "history_count": 5,
+  "interactions": [
+    {
+      "event_id": "evt_1791820741895",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T15:59:01.895506+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.986
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.957
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.902
+        },
+        {
+          "candidate_id": "cand_funnel_progression",
+          "chart_type": "bar",
+          "title": "Customer Conversion & Funnel Progression",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.066
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820741902",
+      "entry_type": "chart_selection",
+      "timestamp": "2026-10-12T15:59:01.902479+00:00",
+      "dataset_id": null,
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "chart_type": "scatter"
+        }
+      ],
+      "metadata": {},
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820741916",
+      "entry_type": "helpful_feedback",
+      "timestamp": "2026-10-12T15:59:01.916279+00:00",
+      "dataset_id": null,
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "chart_type": "scatter"
+        }
+      ],
+      "metadata": {},
+      "feedback": "helpful"
+    },
+    {
+      "event_id": "evt_1791820741930",
+      "entry_type": "unhelpful_feedback",
+      "timestamp": "2026-10-12T15:59:01.930378+00:00",
+      "dataset_id": null,
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "chart_type": "pie"
+        }
+      ],
+      "metadata": {},
+      "feedback": "unhelpful"
+    },
+    {
+      "event_id": "evt_1791820742272",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T15:59:02.272529+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.986
+        },
+        {
+          "candidate_id": "cand_funnel_progression",
+          "chart_type": "bar",
+          "title": "Customer Conversion & Funnel Progression",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.066
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    }
+  ]
+}

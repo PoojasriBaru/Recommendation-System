@@ -1,0 +1,601 @@
+record_id,dataset_archetype_id,dataset_name,domain,analytical_task,x_column,y_column,target_chart,canonical_chart,canonical_class_id,dataset_rows,dataset_cols,missing_value_ratio,correlation,is_synthetic
+synth_0001,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,40581,24,0.04492770942635396,0.0,True
+synth_0002,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,40581,24,0.03259806297513003,0.0,True
+synth_0003,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,40581,24,0.028415430166773583,0.0,True
+synth_0004,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,40581,24,0.039740565177082424,0.0,True
+synth_0005,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,40581,24,0.008855533970352448,0.0,True
+synth_0006,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,40581,24,0.04818099885446264,0.0,True
+synth_0007,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,40581,24,0.03480148983374865,0.0,True
+synth_0008,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,matrix_correlation,dimension_grid_x_7,dimension_grid_y_7,heatmap,heatmap,5,40581,24,0.0,0.0,True
+synth_0009,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,composition_stacked,main_category_8,subsegment_metric_8,stacked_bar,bar,0,40581,24,0.0,0.0,True
+synth_0010,synth_ds_001,E-Commerce Order Analytics Archetype 1,Retail,distribution_single,metric_val_9,frequency_density,histogram,histogram,4,40581,24,0.03991475894833876,0.0,True
+synth_0011,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_0,kpi_measurement_0,line,line,1,86449,9,0.009311960362649203,0.38009532070563146,True
+synth_0012,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_1,kpi_measurement_1,line,line,1,86449,9,0.004316420549936864,0.5630456668613307,True
+synth_0013,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,86449,9,0.015903723895374075,0.547987103046849,True
+synth_0014,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_3,kpi_measurement_3,area,line,1,86449,9,0.005004857963291907,0.4771770262557003,True
+synth_0015,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,86449,9,0.007119453573025232,0.5518289296900118,True
+synth_0016,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_5,kpi_measurement_5,area,line,1,86449,9,0.009469435415611314,0.38730630731323556,True
+synth_0017,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_6,kpi_measurement_6,line,line,1,86449,9,0.0131738726323789,0.48773708893793943,True
+synth_0018,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,86449,9,0.022912644524575834,0.0,True
+synth_0019,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,trend_temporal,timestamp_8,kpi_measurement_8,area,line,1,86449,9,0.001888859215118568,0.3409273873866999,True
+synth_0020,synth_ds_002,Server Telemetry & Metrics Archetype 2,DevOps,category_comparison,category_name_9,sales_metric_9,bar,bar,0,86449,9,0.02632416040581159,0.0,True
+synth_0021,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_0,sales_metric_0,bar,bar,0,761,36,0.011160542573783495,0.0,True
+synth_0022,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_1,sales_metric_1,bar,bar,0,761,36,0.027076587200386998,0.0,True
+synth_0023,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_2,sales_metric_2,bar,bar,0,761,36,0.009579409127712445,0.0,True
+synth_0024,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_3,sales_metric_3,bar,bar,0,761,36,0.0225712358831304,0.0,True
+synth_0025,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_4,sales_metric_4,bar,bar,0,761,36,0.01052745037656236,0.0,True
+synth_0026,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_5,sales_metric_5,bar,bar,0,761,36,0.024655801778710684,0.0,True
+synth_0027,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_6,sales_metric_6,bar,bar,0,761,36,0.029580031914686125,0.0,True
+synth_0028,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,category_comparison,category_name_7,sales_metric_7,bar,bar,0,761,36,0.014778753128725773,0.0,True
+synth_0029,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,part_to_whole,segment_slice_8,share_percentage_8,donut,bar,0,761,36,0.0,0.0,True
+synth_0030,synth_ds_003,Clinical Patient Biomarkers Archetype 3,Healthcare,correlation_numeric,continuous_var_a_9,continuous_var_b_9,scatter,scatter,2,761,36,0.0006077237344908171,-0.4698870745169305,True
+synth_0031,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_0,share_percentage_0,donut,bar,0,2576,29,0.0,0.0,True
+synth_0032,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_1,share_percentage_1,treemap,bar,0,2576,29,0.0,0.0,True
+synth_0033,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_2,share_percentage_2,donut,bar,0,2576,29,0.0,0.0,True
+synth_0034,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_3,share_percentage_3,pie,bar,0,2576,29,0.0,0.0,True
+synth_0035,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_4,share_percentage_4,donut,bar,0,2576,29,0.0,0.0,True
+synth_0036,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_5,share_percentage_5,pie,bar,0,2576,29,0.0,0.0,True
+synth_0037,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,part_to_whole,segment_slice_6,share_percentage_6,donut,bar,0,2576,29,0.0,0.0,True
+synth_0038,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,matrix_correlation,dimension_grid_x_7,dimension_grid_y_7,heatmap,heatmap,5,2576,29,0.0,0.0,True
+synth_0039,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,composition_stacked,main_category_8,subsegment_metric_8,stacked_bar,bar,0,2576,29,0.0,0.0,True
+synth_0040,synth_ds_004,Real Estate Housing Valuation Archetype 4,Finance,distribution_single,metric_val_9,frequency_density,histogram,histogram,4,2576,29,0.020740975116883262,0.0,True
+synth_0041,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_0,continuous_var_b_0,scatter,scatter,2,169839,8,0.012367405087159883,0.7561017408001277,True
+synth_0042,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_1,continuous_var_b_1,scatter,scatter,2,169839,8,0.026008175055599672,0.034523091536448614,True
+synth_0043,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_2,continuous_var_b_2,scatter,scatter,2,169839,8,0.0007272332833940965,-0.48796092543485176,True
+synth_0044,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,169839,8,0.007353674046451897,0.6160183048694668,True
+synth_0045,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_4,continuous_var_b_4,bubble,scatter,2,169839,8,0.007595134675614718,-0.6309044727518963,True
+synth_0046,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_5,continuous_var_b_5,bubble,scatter,2,169839,8,0.00885052421383734,-0.5628103927773203,True
+synth_0047,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,correlation_numeric,continuous_var_a_6,continuous_var_b_6,scatter,scatter,2,169839,8,0.04604362002659066,-0.7110096456869177,True
+synth_0048,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,169839,8,0.01494941876267513,0.25358600566988804,True
+synth_0049,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,category_comparison,category_name_8,sales_metric_8,bar,bar,0,169839,8,0.008077296928481428,0.0,True
+synth_0050,synth_ds_005,Mobile App Session Events Archetype 5,Product Analytics,part_to_whole,segment_slice_9,share_percentage_9,treemap,bar,0,169839,8,0.0,0.0,True
+synth_0051,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,5259,16,0.01611319625455643,0.0,True
+synth_0052,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,5259,16,0.017123349140067357,0.0,True
+synth_0053,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,5259,16,0.00482044119778667,0.0,True
+synth_0054,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,5259,16,0.02947135850725819,0.0,True
+synth_0055,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,5259,16,0.02005929659773293,0.0,True
+synth_0056,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,5259,16,0.012763093158492504,0.0,True
+synth_0057,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,5259,16,0.014434203055644523,0.0,True
+synth_0058,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,part_to_whole,segment_slice_7,share_percentage_7,pie,bar,0,5259,16,0.0,0.0,True
+synth_0059,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,correlation_numeric,continuous_var_a_8,continuous_var_b_8,scatter,scatter,2,5259,16,0.017443413327149767,-0.048320479464730726,True
+synth_0060,synth_ds_006,Customer Churn Survey Archetype 6,Marketing,distribution_by_group,group_factor_9,distribution_metric_9,box,box,3,5259,16,0.025254863302748162,0.0,True
+synth_0061,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0062,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0063,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0064,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0065,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0066,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0067,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,36259,10,0.0,0.0,True
+synth_0068,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,category_comparison,category_name_7,sales_metric_7,grouped_bar,bar,0,36259,10,0.007454674194433972,0.0,True
+synth_0069,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,part_to_whole,segment_slice_8,share_percentage_8,treemap,bar,0,36259,10,0.0,0.0,True
+synth_0070,synth_ds_007,Stock Market Volatility Archetype 7,Fintech,correlation_numeric,continuous_var_a_9,continuous_var_b_9,scatter,scatter,2,36259,10,0.03611262841965331,-0.5951403735070846,True
+synth_0071,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0072,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0073,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0074,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0075,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0076,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0077,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,20360,17,0.0,0.0,True
+synth_0078,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,20360,17,0.009048790322653868,0.4902941751390217,True
+synth_0079,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,category_comparison,category_name_8,sales_metric_8,grouped_bar,bar,0,20360,17,0.005341079006092543,0.0,True
+synth_0080,synth_ds_008,Supply Chain Logistics Delivery Archetype 8,Logistics,part_to_whole,segment_slice_9,share_percentage_9,donut,bar,0,20360,17,0.0,0.0,True
+synth_0081,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,966,69,0.00953438603318333,0.0,True
+synth_0082,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,966,69,0.0200381530437663,0.0,True
+synth_0083,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,966,69,0.02043670855490482,0.0,True
+synth_0084,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,966,69,0.0009855268877182078,0.0,True
+synth_0085,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,966,69,0.04278482340531429,0.0,True
+synth_0086,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,966,69,0.010394312757301367,0.0,True
+synth_0087,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,966,69,0.018984620408363347,0.0,True
+synth_0088,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,966,69,0.03818028970798804,0.0,True
+synth_0089,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,trend_temporal,timestamp_8,kpi_measurement_8,area,line,1,966,69,0.012669564396522946,0.33615366325968443,True
+synth_0090,synth_ds_009,Genomic Expression Microarray Archetype 9,Bioinformatics,category_comparison,category_name_9,sales_metric_9,bar,bar,0,966,69,0.017295494265427605,0.0,True
+synth_0091,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_0,kpi_measurement_0,area,line,1,90900,10,0.017477801551250307,0.3915692641247487,True
+synth_0092,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_1,kpi_measurement_1,area,line,1,90900,10,0.014760672328527409,0.5595229525921227,True
+synth_0093,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,90900,10,0.013273423307252964,0.22571290674212519,True
+synth_0094,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_3,kpi_measurement_3,line,line,1,90900,10,0.015418244074916439,0.3232010166195534,True
+synth_0095,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,90900,10,0.005442902744599254,0.4230028864789779,True
+synth_0096,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_5,kpi_measurement_5,line,line,1,90900,10,0.014644497728191224,0.3106047209098011,True
+synth_0097,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,trend_temporal,timestamp_6,kpi_measurement_6,line,line,1,90900,10,0.01411150345031377,0.3486745036862754,True
+synth_0098,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,matrix_correlation,dimension_grid_x_7,dimension_grid_y_7,heatmap,heatmap,5,90900,10,0.0,0.0,True
+synth_0099,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,composition_stacked,main_category_8,subsegment_metric_8,stacked_bar,bar,0,90900,10,0.0,0.0,True
+synth_0100,synth_ds_010,Social Media Engagement Matrix Archetype 10,Social,distribution_single,metric_val_9,frequency_density,histogram,histogram,4,90900,10,0.003847660081460458,0.0,True
+synth_0101,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_0,sales_metric_0,bar,bar,0,186188,7,0.026579332447085612,0.0,True
+synth_0102,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_1,sales_metric_1,bar,bar,0,186188,7,0.02396349707320996,0.0,True
+synth_0103,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_2,sales_metric_2,bar,bar,0,186188,7,0.023048202415935547,0.0,True
+synth_0104,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_3,sales_metric_3,bar,bar,0,186188,7,0.007008232531497298,0.0,True
+synth_0105,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_4,sales_metric_4,grouped_bar,bar,0,186188,7,0.023590350432466562,0.0,True
+synth_0106,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_5,sales_metric_5,grouped_bar,bar,0,186188,7,0.0069501510415033016,0.0,True
+synth_0107,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,category_comparison,category_name_6,sales_metric_6,grouped_bar,bar,0,186188,7,0.023387534207002597,0.0,True
+synth_0108,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,part_to_whole,segment_slice_7,share_percentage_7,pie,bar,0,186188,7,0.0,0.0,True
+synth_0109,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,correlation_numeric,continuous_var_a_8,continuous_var_b_8,scatter,scatter,2,186188,7,0.02684872114467068,-0.46845102787767684,True
+synth_0110,synth_ds_011,Sensor Network IoT Readings Archetype 11,IoT,distribution_by_group,group_factor_9,distribution_metric_9,box,box,3,186188,7,0.01965725941917065,0.0,True
+synth_0111,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_0,share_percentage_0,donut,bar,0,3484,21,0.0,0.0,True
+synth_0112,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_1,share_percentage_1,treemap,bar,0,3484,21,0.0,0.0,True
+synth_0113,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_2,share_percentage_2,pie,bar,0,3484,21,0.0,0.0,True
+synth_0114,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_3,share_percentage_3,treemap,bar,0,3484,21,0.0,0.0,True
+synth_0115,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_4,share_percentage_4,treemap,bar,0,3484,21,0.0,0.0,True
+synth_0116,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_5,share_percentage_5,pie,bar,0,3484,21,0.0,0.0,True
+synth_0117,synth_ds_012,Employee Performance Reviews Archetype 12,HR,part_to_whole,segment_slice_6,share_percentage_6,pie,bar,0,3484,21,0.0,0.0,True
+synth_0118,synth_ds_012,Employee Performance Reviews Archetype 12,HR,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,3484,21,0.015224032012825085,0.0,True
+synth_0119,synth_ds_012,Employee Performance Reviews Archetype 12,HR,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,3484,21,0.0,0.0,True
+synth_0120,synth_ds_012,Employee Performance Reviews Archetype 12,HR,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,3484,21,0.0,0.0,True
+synth_0121,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_0,continuous_var_b_0,bubble,scatter,2,16593,17,0.003391852955258595,0.7432884283019668,True
+synth_0122,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_1,continuous_var_b_1,scatter,scatter,2,16593,17,0.03791315979645113,0.42440811396297196,True
+synth_0123,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_2,continuous_var_b_2,scatter,scatter,2,16593,17,0.03974047743749647,-0.08264205863955165,True
+synth_0124,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,16593,17,0.019879719898139716,-0.1364635612255921,True
+synth_0125,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_4,continuous_var_b_4,scatter,scatter,2,16593,17,0.009276275785156057,-0.045543158624352875,True
+synth_0126,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_5,continuous_var_b_5,scatter,scatter,2,16593,17,0.005865409448119724,0.5041133946594997,True
+synth_0127,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,correlation_numeric,continuous_var_a_6,continuous_var_b_6,scatter,scatter,2,16593,17,0.003622344389727944,-0.07612574656093796,True
+synth_0128,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,trend_temporal,timestamp_7,kpi_measurement_7,area,line,1,16593,17,0.01973325186534293,0.36323065412199596,True
+synth_0129,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,category_comparison,category_name_8,sales_metric_8,grouped_bar,bar,0,16593,17,0.000996093263740997,0.0,True
+synth_0130,synth_ds_013,E-Commerce Order Analytics Archetype 13,Retail,part_to_whole,segment_slice_9,share_percentage_9,pie,bar,0,16593,17,0.0,0.0,True
+synth_0131,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,162738,14,0.028086367387310695,0.0,True
+synth_0132,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,162738,14,0.024444753412395367,0.0,True
+synth_0133,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,162738,14,0.021947685652659955,0.0,True
+synth_0134,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,162738,14,0.010106873753133206,0.0,True
+synth_0135,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,162738,14,0.029890017481702256,0.0,True
+synth_0136,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,162738,14,0.013878688702179488,0.0,True
+synth_0137,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,162738,14,0.0012032757423744744,0.0,True
+synth_0138,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,162738,14,0.02108604634367277,0.0,True
+synth_0139,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,trend_temporal,timestamp_8,kpi_measurement_8,area,line,1,162738,14,0.01818065041331282,0.32361553720158853,True
+synth_0140,synth_ds_014,Server Telemetry & Metrics Archetype 14,DevOps,category_comparison,category_name_9,sales_metric_9,bar,bar,0,162738,14,0.010777001081992971,0.0,True
+synth_0141,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0142,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0143,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0144,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0145,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0146,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0147,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,2960,19,0.0,0.0,True
+synth_0148,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,composition_stacked,main_category_7,subsegment_metric_7,stacked_bar,bar,0,2960,19,0.0,0.0,True
+synth_0149,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,distribution_single,metric_val_8,frequency_density,histogram,histogram,4,2960,19,0.015807805248837525,0.0,True
+synth_0150,synth_ds_015,Clinical Patient Biomarkers Archetype 15,Healthcare,trend_temporal,timestamp_9,kpi_measurement_9,line,line,1,2960,19,0.009094797112677182,0.5523403813683233,True
+synth_0151,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0152,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0153,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0154,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0155,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0156,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0157,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,4477,15,0.0,0.0,True
+synth_0158,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,correlation_numeric,continuous_var_a_7,continuous_var_b_7,bubble,scatter,2,4477,15,0.016229291495013516,0.07563146653344421,True
+synth_0159,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,4477,15,0.020046383956650485,0.0,True
+synth_0160,synth_ds_016,Real Estate Housing Valuation Archetype 16,Finance,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,4477,15,0.0,0.0,True
+synth_0161,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,28140,9,0.026680127336343923,0.0,True
+synth_0162,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,28140,9,0.03237373570773015,0.0,True
+synth_0163,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,28140,9,0.012838828386025397,0.0,True
+synth_0164,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,28140,9,0.020677455076267576,0.0,True
+synth_0165,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,28140,9,0.012828139185068189,0.0,True
+synth_0166,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,28140,9,0.040959442971339514,0.0,True
+synth_0167,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,28140,9,0.011843527948724104,0.0,True
+synth_0168,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,28140,9,0.0033602841548972685,0.5035470180443904,True
+synth_0169,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,category_comparison,category_name_8,sales_metric_8,grouped_bar,bar,0,28140,9,0.017834290055585192,0.0,True
+synth_0170,synth_ds_017,Mobile App Session Events Archetype 17,Product Analytics,part_to_whole,segment_slice_9,share_percentage_9,donut,bar,0,28140,9,0.0,0.0,True
+synth_0171,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_0,kpi_measurement_0,line,line,1,12602,14,0.005483213331196117,0.37749815291596867,True
+synth_0172,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_1,kpi_measurement_1,line,line,1,12602,14,0.01600713015644723,0.366500956529099,True
+synth_0173,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,12602,14,0.011155668347400498,0.5450024454103328,True
+synth_0174,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_3,kpi_measurement_3,line,line,1,12602,14,0.009007418725163703,0.3996579579046541,True
+synth_0175,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,12602,14,0.010799142605611193,0.6130338151262642,True
+synth_0176,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_5,kpi_measurement_5,line,line,1,12602,14,0.0060625671189065726,0.39849075853714166,True
+synth_0177,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_6,kpi_measurement_6,line,line,1,12602,14,0.018387839464288347,0.6087248542455957,True
+synth_0178,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,composition_stacked,main_category_7,subsegment_metric_7,stacked_bar,bar,0,12602,14,0.0,0.0,True
+synth_0179,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,distribution_single,metric_val_8,frequency_density,histogram,histogram,4,12602,14,0.008676225749325434,0.0,True
+synth_0180,synth_ds_018,Customer Churn Survey Archetype 18,Marketing,trend_temporal,timestamp_9,kpi_measurement_9,line,line,1,12602,14,0.01212505875501955,0.2340861546927468,True
+synth_0181,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_0,sales_metric_0,grouped_bar,bar,0,24631,12,0.016485886076850507,0.0,True
+synth_0182,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_1,sales_metric_1,bar,bar,0,24631,12,0.018587638646934888,0.0,True
+synth_0183,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_2,sales_metric_2,bar,bar,0,24631,12,0.020851056865756595,0.0,True
+synth_0184,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_3,sales_metric_3,bar,bar,0,24631,12,0.01528266384449369,0.0,True
+synth_0185,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_4,sales_metric_4,bar,bar,0,24631,12,0.026598126457214002,0.0,True
+synth_0186,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_5,sales_metric_5,bar,bar,0,24631,12,0.012484619945392844,0.0,True
+synth_0187,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_6,sales_metric_6,grouped_bar,bar,0,24631,12,0.007236043727986244,0.0,True
+synth_0188,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,24631,12,0.0422178541369808,0.0,True
+synth_0189,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,trend_temporal,timestamp_8,kpi_measurement_8,line,line,1,24631,12,0.015700330876741136,0.3273353110230256,True
+synth_0190,synth_ds_019,Stock Market Volatility Archetype 19,Fintech,category_comparison,category_name_9,sales_metric_9,grouped_bar,bar,0,24631,12,0.013844323938742024,0.0,True
+synth_0191,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_0,share_percentage_0,donut,bar,0,8174,27,0.0,0.0,True
+synth_0192,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_1,share_percentage_1,pie,bar,0,8174,27,0.0,0.0,True
+synth_0193,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_2,share_percentage_2,pie,bar,0,8174,27,0.0,0.0,True
+synth_0194,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_3,share_percentage_3,pie,bar,0,8174,27,0.0,0.0,True
+synth_0195,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_4,share_percentage_4,pie,bar,0,8174,27,0.0,0.0,True
+synth_0196,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_5,share_percentage_5,pie,bar,0,8174,27,0.0,0.0,True
+synth_0197,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,part_to_whole,segment_slice_6,share_percentage_6,pie,bar,0,8174,27,0.0,0.0,True
+synth_0198,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,correlation_numeric,continuous_var_a_7,continuous_var_b_7,scatter,scatter,2,8174,27,0.048424438879719194,0.05151362652356917,True
+synth_0199,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,8174,27,0.027842509209781492,0.0,True
+synth_0200,synth_ds_020,Supply Chain Logistics Delivery Archetype 20,Logistics,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,8174,27,0.0,0.0,True
+synth_0201,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_0,continuous_var_b_0,scatter,scatter,2,1567,39,0.043068499818171804,-0.36395845829342777,True
+synth_0202,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_1,continuous_var_b_1,bubble,scatter,2,1567,39,0.04686940332485595,0.07654576212479514,True
+synth_0203,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_2,continuous_var_b_2,scatter,scatter,2,1567,39,0.01487742256594103,0.15359107377991388,True
+synth_0204,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,1567,39,0.020074715793064413,0.8360769172939179,True
+synth_0205,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_4,continuous_var_b_4,bubble,scatter,2,1567,39,0.03728668913656161,0.4436842920477596,True
+synth_0206,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_5,continuous_var_b_5,scatter,scatter,2,1567,39,0.029652216709339208,0.37752059494465307,True
+synth_0207,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,correlation_numeric,continuous_var_a_6,continuous_var_b_6,scatter,scatter,2,1567,39,0.028999189371406567,0.2419533940388866,True
+synth_0208,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,matrix_correlation,dimension_grid_x_7,dimension_grid_y_7,heatmap,heatmap,5,1567,39,0.0,0.0,True
+synth_0209,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,composition_stacked,main_category_8,subsegment_metric_8,stacked_bar,bar,0,1567,39,0.0,0.0,True
+synth_0210,synth_ds_021,Genomic Expression Microarray Archetype 21,Bioinformatics,distribution_single,metric_val_9,frequency_density,histogram,histogram,4,1567,39,0.011030597635560564,0.0,True
+synth_0211,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,116834,11,0.0035500857277016196,0.0,True
+synth_0212,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,116834,11,0.010035338662257963,0.0,True
+synth_0213,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,116834,11,0.007778902765973212,0.0,True
+synth_0214,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,116834,11,0.004004399172478313,0.0,True
+synth_0215,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,116834,11,0.018306754484329238,0.0,True
+synth_0216,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,116834,11,0.007851170512077179,0.0,True
+synth_0217,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,116834,11,0.0019609847269315573,0.0,True
+synth_0218,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,category_comparison,category_name_7,sales_metric_7,bar,bar,0,116834,11,0.026995000370618173,0.0,True
+synth_0219,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,part_to_whole,segment_slice_8,share_percentage_8,donut,bar,0,116834,11,0.0,0.0,True
+synth_0220,synth_ds_022,Social Media Engagement Matrix Archetype 22,Social,correlation_numeric,continuous_var_a_9,continuous_var_b_9,scatter,scatter,2,116834,11,0.023196624334416813,-0.5132340243084418,True
+synth_0221,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0222,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0223,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0224,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0225,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0226,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0227,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,113955,7,0.0,0.0,True
+synth_0228,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,113955,7,0.0040976254830142516,0.5860062381549951,True
+synth_0229,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,category_comparison,category_name_8,sales_metric_8,grouped_bar,bar,0,113955,7,0.027276606175846804,0.0,True
+synth_0230,synth_ds_023,Sensor Network IoT Readings Archetype 23,IoT,part_to_whole,segment_slice_9,share_percentage_9,treemap,bar,0,113955,7,0.0,0.0,True
+synth_0231,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0232,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0233,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0234,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0235,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0236,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0237,synth_ds_024,Employee Performance Reviews Archetype 24,HR,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,1788,15,0.0,0.0,True
+synth_0238,synth_ds_024,Employee Performance Reviews Archetype 24,HR,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,1788,15,0.009370597204879112,0.0,True
+synth_0239,synth_ds_024,Employee Performance Reviews Archetype 24,HR,trend_temporal,timestamp_8,kpi_measurement_8,line,line,1,1788,15,0.009884248945005999,0.3199370563779724,True
+synth_0240,synth_ds_024,Employee Performance Reviews Archetype 24,HR,category_comparison,category_name_9,sales_metric_9,bar,bar,0,1788,15,0.022464790108899194,0.0,True
+synth_0241,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,34543,14,0.0063132370782251375,0.0,True
+synth_0242,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,34543,14,0.013963804422720522,0.0,True
+synth_0243,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,34543,14,0.046915240922424134,0.0,True
+synth_0244,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,34543,14,0.005549473460674054,0.0,True
+synth_0245,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,34543,14,0.0021012337585702644,0.0,True
+synth_0246,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,34543,14,0.000900327780022725,0.0,True
+synth_0247,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,34543,14,0.027034923832245518,0.0,True
+synth_0248,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,34543,14,0.03715965993658017,0.0,True
+synth_0249,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,trend_temporal,timestamp_8,kpi_measurement_8,area,line,1,34543,14,0.015891565574003806,0.6156867571928548,True
+synth_0250,synth_ds_025,E-Commerce Order Analytics Archetype 25,Retail,category_comparison,category_name_9,sales_metric_9,grouped_bar,bar,0,34543,14,0.02728880458309777,0.0,True
+synth_0251,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_0,kpi_measurement_0,line,line,1,444734,13,0.015477593114603129,0.5513168865427581,True
+synth_0252,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_1,kpi_measurement_1,line,line,1,444734,13,0.007690226552896251,0.5170520156881656,True
+synth_0253,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_2,kpi_measurement_2,area,line,1,444734,13,0.009449867100130271,0.2980488563691965,True
+synth_0254,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_3,kpi_measurement_3,area,line,1,444734,13,0.010331452568919581,0.6012928397899064,True
+synth_0255,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,444734,13,0.018635074388656327,0.6371112623425879,True
+synth_0256,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_5,kpi_measurement_5,line,line,1,444734,13,0.0026297823979596325,0.5039526070453518,True
+synth_0257,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,trend_temporal,timestamp_6,kpi_measurement_6,line,line,1,444734,13,0.01642396565100453,0.5432949567463033,True
+synth_0258,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,444734,13,0.013687095268666261,0.0,True
+synth_0259,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,444734,13,0.0,0.0,True
+synth_0260,synth_ds_026,Server Telemetry & Metrics Archetype 26,DevOps,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,444734,13,0.0,0.0,True
+synth_0261,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_0,sales_metric_0,bar,bar,0,1038,32,0.003616752492110707,0.0,True
+synth_0262,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_1,sales_metric_1,bar,bar,0,1038,32,0.017315996602036525,0.0,True
+synth_0263,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_2,sales_metric_2,bar,bar,0,1038,32,0.012897932321704443,0.0,True
+synth_0264,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_3,sales_metric_3,bar,bar,0,1038,32,0.027499057075236217,0.0,True
+synth_0265,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_4,sales_metric_4,bar,bar,0,1038,32,0.005005806050962585,0.0,True
+synth_0266,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_5,sales_metric_5,bar,bar,0,1038,32,0.01021812499743875,0.0,True
+synth_0267,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_6,sales_metric_6,grouped_bar,bar,0,1038,32,0.013620048635883446,0.0,True
+synth_0268,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,1038,32,0.0019498006287455795,0.0,True
+synth_0269,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,trend_temporal,timestamp_8,kpi_measurement_8,line,line,1,1038,32,0.019118376579106384,0.6805677427037964,True
+synth_0270,synth_ds_027,Clinical Patient Biomarkers Archetype 27,Healthcare,category_comparison,category_name_9,sales_metric_9,bar,bar,0,1038,32,0.016242228220427556,0.0,True
+synth_0271,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_0,share_percentage_0,pie,bar,0,23587,20,0.0,0.0,True
+synth_0272,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_1,share_percentage_1,pie,bar,0,23587,20,0.0,0.0,True
+synth_0273,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_2,share_percentage_2,pie,bar,0,23587,20,0.0,0.0,True
+synth_0274,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_3,share_percentage_3,treemap,bar,0,23587,20,0.0,0.0,True
+synth_0275,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_4,share_percentage_4,pie,bar,0,23587,20,0.0,0.0,True
+synth_0276,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_5,share_percentage_5,pie,bar,0,23587,20,0.0,0.0,True
+synth_0277,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,part_to_whole,segment_slice_6,share_percentage_6,treemap,bar,0,23587,20,0.0,0.0,True
+synth_0278,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,composition_stacked,main_category_7,subsegment_metric_7,stacked_bar,bar,0,23587,20,0.0,0.0,True
+synth_0279,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,distribution_single,metric_val_8,frequency_density,histogram,histogram,4,23587,20,0.04317737612572726,0.0,True
+synth_0280,synth_ds_028,Real Estate Housing Valuation Archetype 28,Finance,trend_temporal,timestamp_9,kpi_measurement_9,line,line,1,23587,20,0.017311542912491044,0.3002372577642014,True
+synth_0281,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_0,continuous_var_b_0,scatter,scatter,2,114091,11,0.04465451025977075,-0.10344531172262783,True
+synth_0282,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_1,continuous_var_b_1,scatter,scatter,2,114091,11,0.014969779418584062,0.32730513361308355,True
+synth_0283,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_2,continuous_var_b_2,scatter,scatter,2,114091,11,0.04170722985003379,-0.825664027965998,True
+synth_0284,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,114091,11,0.020355324456281382,-0.7179961310582714,True
+synth_0285,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_4,continuous_var_b_4,bubble,scatter,2,114091,11,0.03535432386333491,0.0010612557197102745,True
+synth_0286,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_5,continuous_var_b_5,scatter,scatter,2,114091,11,0.011301449890799987,-0.3034573078786007,True
+synth_0287,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,correlation_numeric,continuous_var_a_6,continuous_var_b_6,scatter,scatter,2,114091,11,0.03413086106117012,0.2121325667419841,True
+synth_0288,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,114091,11,0.0026765672599938627,0.22342595426380157,True
+synth_0289,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,category_comparison,category_name_8,sales_metric_8,bar,bar,0,114091,11,0.025180154770680068,0.0,True
+synth_0290,synth_ds_029,Mobile App Session Events Archetype 29,Product Analytics,part_to_whole,segment_slice_9,share_percentage_9,pie,bar,0,114091,11,0.0,0.0,True
+synth_0291,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,5400,16,0.02729829431563176,0.0,True
+synth_0292,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,5400,16,0.021115712749029934,0.0,True
+synth_0293,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,5400,16,0.02107621504604421,0.0,True
+synth_0294,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,5400,16,0.015012034371306037,0.0,True
+synth_0295,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,5400,16,0.01249513295711637,0.0,True
+synth_0296,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,5400,16,0.020334396009301325,0.0,True
+synth_0297,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,5400,16,0.011853927228345098,0.0,True
+synth_0298,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,correlation_numeric,continuous_var_a_7,continuous_var_b_7,bubble,scatter,2,5400,16,0.041774011287109725,0.02696523461095779,True
+synth_0299,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,5400,16,0.0002977146338350689,0.0,True
+synth_0300,synth_ds_030,Customer Churn Survey Archetype 30,Marketing,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,5400,16,0.0,0.0,True
+synth_0301,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0302,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0303,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0304,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0305,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0306,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0307,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0308,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,correlation_numeric,continuous_var_a_7,continuous_var_b_7,scatter,scatter,2,72882,9,0.047136215954705615,-0.7516644359398269,True
+synth_0309,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,72882,9,0.023439655672419152,0.0,True
+synth_0310,synth_ds_031,Stock Market Volatility Archetype 31,Fintech,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,72882,9,0.0,0.0,True
+synth_0311,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0312,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0313,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0314,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0315,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0316,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0317,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,16812,13,0.0,0.0,True
+synth_0318,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,category_comparison,category_name_7,sales_metric_7,bar,bar,0,16812,13,0.0237778534886515,0.0,True
+synth_0319,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,part_to_whole,segment_slice_8,share_percentage_8,pie,bar,0,16812,13,0.0,0.0,True
+synth_0320,synth_ds_032,Supply Chain Logistics Delivery Archetype 32,Logistics,correlation_numeric,continuous_var_a_9,continuous_var_b_9,scatter,scatter,2,16812,13,0.03858134554893039,-0.5734104355254379,True
+synth_0321,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,650,38,0.03644307211349734,0.0,True
+synth_0322,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,650,38,0.04597655123280249,0.0,True
+synth_0323,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,650,38,0.028856129301916042,0.0,True
+synth_0324,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,650,38,0.045911954333771855,0.0,True
+synth_0325,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,650,38,0.047522958528764786,0.0,True
+synth_0326,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,650,38,0.04732282565752027,0.0,True
+synth_0327,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,650,38,0.01657823495335969,0.0,True
+synth_0328,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,part_to_whole,segment_slice_7,share_percentage_7,treemap,bar,0,650,38,0.0,0.0,True
+synth_0329,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,correlation_numeric,continuous_var_a_8,continuous_var_b_8,scatter,scatter,2,650,38,0.026954727636800437,-0.592288372839831,True
+synth_0330,synth_ds_033,Genomic Expression Microarray Archetype 33,Bioinformatics,distribution_by_group,group_factor_9,distribution_metric_9,box,box,3,650,38,0.006783759937490158,0.0,True
+synth_0331,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_0,kpi_measurement_0,area,line,1,121532,12,0.014837926539174302,0.29080698387830134,True
+synth_0332,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_1,kpi_measurement_1,line,line,1,121532,12,0.019697168055249518,0.5546604142363047,True
+synth_0333,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,121532,12,0.019044435713951893,0.25125798203323724,True
+synth_0334,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_3,kpi_measurement_3,line,line,1,121532,12,0.018658497251393444,0.5644905308279082,True
+synth_0335,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_4,kpi_measurement_4,area,line,1,121532,12,0.003904812059129841,0.4810363972012855,True
+synth_0336,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_5,kpi_measurement_5,line,line,1,121532,12,0.00326070673863182,0.5518498898145254,True
+synth_0337,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,trend_temporal,timestamp_6,kpi_measurement_6,line,line,1,121532,12,0.014097420200867634,0.6313202355745895,True
+synth_0338,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,121532,12,0.01658121227155636,0.0,True
+synth_0339,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,121532,12,0.0,0.0,True
+synth_0340,synth_ds_034,Social Media Engagement Matrix Archetype 34,Social,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,121532,12,0.0,0.0,True
+synth_0341,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_0,sales_metric_0,grouped_bar,bar,0,268842,10,0.008628981871310346,0.0,True
+synth_0342,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_1,sales_metric_1,grouped_bar,bar,0,268842,10,0.00857274973778118,0.0,True
+synth_0343,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_2,sales_metric_2,bar,bar,0,268842,10,0.018968464609129196,0.0,True
+synth_0344,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_3,sales_metric_3,bar,bar,0,268842,10,0.002025076400514658,0.0,True
+synth_0345,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_4,sales_metric_4,bar,bar,0,268842,10,0.010395725038581546,0.0,True
+synth_0346,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_5,sales_metric_5,bar,bar,0,268842,10,0.01810911601678125,0.0,True
+synth_0347,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,category_comparison,category_name_6,sales_metric_6,bar,bar,0,268842,10,0.00802206083572624,0.0,True
+synth_0348,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,correlation_numeric,continuous_var_a_7,continuous_var_b_7,scatter,scatter,2,268842,10,0.043304781680584575,-0.3891363686010882,True
+synth_0349,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,268842,10,0.012244550726000943,0.0,True
+synth_0350,synth_ds_035,Sensor Network IoT Readings Archetype 35,IoT,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,268842,10,0.0,0.0,True
+synth_0351,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_0,share_percentage_0,pie,bar,0,1294,20,0.0,0.0,True
+synth_0352,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_1,share_percentage_1,treemap,bar,0,1294,20,0.0,0.0,True
+synth_0353,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_2,share_percentage_2,pie,bar,0,1294,20,0.0,0.0,True
+synth_0354,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_3,share_percentage_3,donut,bar,0,1294,20,0.0,0.0,True
+synth_0355,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_4,share_percentage_4,pie,bar,0,1294,20,0.0,0.0,True
+synth_0356,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_5,share_percentage_5,pie,bar,0,1294,20,0.0,0.0,True
+synth_0357,synth_ds_036,Employee Performance Reviews Archetype 36,HR,part_to_whole,segment_slice_6,share_percentage_6,pie,bar,0,1294,20,0.0,0.0,True
+synth_0358,synth_ds_036,Employee Performance Reviews Archetype 36,HR,correlation_numeric,continuous_var_a_7,continuous_var_b_7,scatter,scatter,2,1294,20,0.03083918039262706,0.07523174239328612,True
+synth_0359,synth_ds_036,Employee Performance Reviews Archetype 36,HR,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,1294,20,0.026860382674595076,0.0,True
+synth_0360,synth_ds_036,Employee Performance Reviews Archetype 36,HR,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,1294,20,0.0,0.0,True
+synth_0361,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_0,continuous_var_b_0,bubble,scatter,2,82711,22,0.022195972725318893,0.552063503489913,True
+synth_0362,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_1,continuous_var_b_1,scatter,scatter,2,82711,22,0.008023130713561323,-0.4075977834251101,True
+synth_0363,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_2,continuous_var_b_2,bubble,scatter,2,82711,22,0.01784429875855551,0.025509621506529245,True
+synth_0364,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,82711,22,0.019636537163570812,0.6397430363419295,True
+synth_0365,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_4,continuous_var_b_4,scatter,scatter,2,82711,22,0.008962662786964037,-0.5773788095964366,True
+synth_0366,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_5,continuous_var_b_5,bubble,scatter,2,82711,22,0.04454277674915734,-0.817480757056612,True
+synth_0367,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,correlation_numeric,continuous_var_a_6,continuous_var_b_6,bubble,scatter,2,82711,22,0.030815024296286204,-0.4767583305093367,True
+synth_0368,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,82711,22,0.03157094606091882,0.0,True
+synth_0369,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,trend_temporal,timestamp_8,kpi_measurement_8,area,line,1,82711,22,0.017913495552375574,0.43712751048847676,True
+synth_0370,synth_ds_037,E-Commerce Order Analytics Archetype 37,Retail,category_comparison,category_name_9,sales_metric_9,bar,bar,0,82711,22,0.007598171505681452,0.0,True
+synth_0371,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,214531,10,0.01000885187510597,0.0,True
+synth_0372,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,214531,10,0.011634782697507937,0.0,True
+synth_0373,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,214531,10,0.029041974361522768,0.0,True
+synth_0374,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,214531,10,0.016771778548398064,0.0,True
+synth_0375,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,214531,10,0.02168213256716414,0.0,True
+synth_0376,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,214531,10,0.02413483927295467,0.0,True
+synth_0377,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,214531,10,0.024090062158735114,0.0,True
+synth_0378,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,category_comparison,category_name_7,sales_metric_7,grouped_bar,bar,0,214531,10,0.02249933395356212,0.0,True
+synth_0379,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,part_to_whole,segment_slice_8,share_percentage_8,donut,bar,0,214531,10,0.0,0.0,True
+synth_0380,synth_ds_038,Server Telemetry & Metrics Archetype 38,DevOps,correlation_numeric,continuous_var_a_9,continuous_var_b_9,bubble,scatter,2,214531,10,0.010745631851819794,-0.31649442601849354,True
+synth_0381,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0382,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0383,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0384,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0385,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0386,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0387,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,1039,23,0.0,0.0,True
+synth_0388,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,1039,23,0.03334236956528291,0.0,True
+synth_0389,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,trend_temporal,timestamp_8,kpi_measurement_8,line,line,1,1039,23,0.011534047977155126,0.6290116355036146,True
+synth_0390,synth_ds_039,Clinical Patient Biomarkers Archetype 39,Healthcare,category_comparison,category_name_9,sales_metric_9,grouped_bar,bar,0,1039,23,0.01233574553983758,0.0,True
+synth_0391,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0392,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0393,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0394,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0395,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0396,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0397,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,16526,24,0.0,0.0,True
+synth_0398,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,16526,24,0.0031241313737324396,0.6186835398850753,True
+synth_0399,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,category_comparison,category_name_8,sales_metric_8,grouped_bar,bar,0,16526,24,0.018290922754578477,0.0,True
+synth_0400,synth_ds_040,Real Estate Housing Valuation Archetype 40,Finance,part_to_whole,segment_slice_9,share_percentage_9,donut,bar,0,16526,24,0.0,0.0,True
+synth_0401,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,85453,17,0.029642009025405508,0.0,True
+synth_0402,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,85453,17,0.03295227050661162,0.0,True
+synth_0403,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,85453,17,0.0015013002664696407,0.0,True
+synth_0404,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,85453,17,0.04876715667395353,0.0,True
+synth_0405,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,85453,17,0.023455360552378936,0.0,True
+synth_0406,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,85453,17,0.013918424083132831,0.0,True
+synth_0407,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,85453,17,0.003128242110972579,0.0,True
+synth_0408,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,85453,17,0.00907258533835609,0.0,True
+synth_0409,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,85453,17,0.0,0.0,True
+synth_0410,synth_ds_041,Mobile App Session Events Archetype 41,Product Analytics,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,85453,17,0.0,0.0,True
+synth_0411,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_0,kpi_measurement_0,line,line,1,4987,10,0.013344246743883622,0.6447596555218815,True
+synth_0412,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_1,kpi_measurement_1,area,line,1,4987,10,0.014832829036720846,0.36411655283916966,True
+synth_0413,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,4987,10,0.0039283843174403475,0.3149133628988092,True
+synth_0414,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_3,kpi_measurement_3,line,line,1,4987,10,0.0028244708674629894,0.3428537838304452,True
+synth_0415,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,4987,10,0.002860022453314528,0.5979631935717511,True
+synth_0416,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_5,kpi_measurement_5,line,line,1,4987,10,0.0043641506910434445,0.513664467545339,True
+synth_0417,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,trend_temporal,timestamp_6,kpi_measurement_6,area,line,1,4987,10,0.007024387746975618,0.31907332683284817,True
+synth_0418,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,category_comparison,category_name_7,sales_metric_7,bar,bar,0,4987,10,0.02281726927365847,0.0,True
+synth_0419,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,part_to_whole,segment_slice_8,share_percentage_8,pie,bar,0,4987,10,0.0,0.0,True
+synth_0420,synth_ds_042,Customer Churn Survey Archetype 42,Marketing,correlation_numeric,continuous_var_a_9,continuous_var_b_9,scatter,scatter,2,4987,10,0.04553028586072109,0.017987287681251796,True
+synth_0421,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_0,sales_metric_0,bar,bar,0,49936,12,0.0014884312001651233,0.0,True
+synth_0422,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_1,sales_metric_1,bar,bar,0,49936,12,0.02252308947633167,0.0,True
+synth_0423,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_2,sales_metric_2,bar,bar,0,49936,12,0.0005746645665375871,0.0,True
+synth_0424,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_3,sales_metric_3,bar,bar,0,49936,12,0.027996152632779187,0.0,True
+synth_0425,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_4,sales_metric_4,bar,bar,0,49936,12,0.008323940391748622,0.0,True
+synth_0426,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_5,sales_metric_5,bar,bar,0,49936,12,0.010199155913797445,0.0,True
+synth_0427,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_6,sales_metric_6,grouped_bar,bar,0,49936,12,0.02785891686346182,0.0,True
+synth_0428,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,distribution_single,metric_val_7,frequency_density,histogram,histogram,4,49936,12,0.02507589801750832,0.0,True
+synth_0429,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,trend_temporal,timestamp_8,kpi_measurement_8,line,line,1,49936,12,0.0011121104336092125,0.6477814240659193,True
+synth_0430,synth_ds_043,Stock Market Volatility Archetype 43,Fintech,category_comparison,category_name_9,sales_metric_9,bar,bar,0,49936,12,0.00814899543823109,0.0,True
+synth_0431,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_0,share_percentage_0,donut,bar,0,12114,19,0.0,0.0,True
+synth_0432,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_1,share_percentage_1,donut,bar,0,12114,19,0.0,0.0,True
+synth_0433,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_2,share_percentage_2,treemap,bar,0,12114,19,0.0,0.0,True
+synth_0434,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_3,share_percentage_3,treemap,bar,0,12114,19,0.0,0.0,True
+synth_0435,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_4,share_percentage_4,pie,bar,0,12114,19,0.0,0.0,True
+synth_0436,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_5,share_percentage_5,donut,bar,0,12114,19,0.0,0.0,True
+synth_0437,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,part_to_whole,segment_slice_6,share_percentage_6,pie,bar,0,12114,19,0.0,0.0,True
+synth_0438,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,12114,19,0.0030979502662514522,0.0,True
+synth_0439,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,12114,19,0.0,0.0,True
+synth_0440,synth_ds_044,Supply Chain Logistics Delivery Archetype 44,Logistics,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,12114,19,0.0,0.0,True
+synth_0441,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_0,continuous_var_b_0,scatter,scatter,2,1972,42,0.04117761133059095,0.13197398238551838,True
+synth_0442,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_1,continuous_var_b_1,scatter,scatter,2,1972,42,0.019049563683419996,0.5795448076849422,True
+synth_0443,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_2,continuous_var_b_2,scatter,scatter,2,1972,42,0.020387405250136617,-0.794479596666357,True
+synth_0444,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,1972,42,0.017733310249254144,0.2750221452017855,True
+synth_0445,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_4,continuous_var_b_4,scatter,scatter,2,1972,42,0.0035054069820628477,0.2988989726769252,True
+synth_0446,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_5,continuous_var_b_5,bubble,scatter,2,1972,42,0.04790590044597169,0.004126388182839946,True
+synth_0447,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_6,continuous_var_b_6,scatter,scatter,2,1972,42,0.04122357588022746,-0.12162156345704778,True
+synth_0448,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,category_comparison,category_name_7,sales_metric_7,bar,bar,0,1972,42,0.009254048444684521,0.0,True
+synth_0449,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,part_to_whole,segment_slice_8,share_percentage_8,treemap,bar,0,1972,42,0.0,0.0,True
+synth_0450,synth_ds_045,Genomic Expression Microarray Archetype 45,Bioinformatics,correlation_numeric,continuous_var_a_9,continuous_var_b_9,scatter,scatter,2,1972,42,0.039164899147802384,0.7594856159768092,True
+synth_0451,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,39457,20,0.006680282373692548,0.0,True
+synth_0452,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,39457,20,0.026938939405433654,0.0,True
+synth_0453,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,39457,20,0.007014384992791923,0.0,True
+synth_0454,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,39457,20,0.01258882148420431,0.0,True
+synth_0455,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,39457,20,0.023621158744478187,0.0,True
+synth_0456,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,39457,20,0.02128316593901924,0.0,True
+synth_0457,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,39457,20,0.024169464160900257,0.0,True
+synth_0458,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,correlation_numeric,continuous_var_a_7,continuous_var_b_7,scatter,scatter,2,39457,20,0.01055629712790187,0.6301703742776469,True
+synth_0459,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,39457,20,0.02280482789370477,0.0,True
+synth_0460,synth_ds_046,Social Media Engagement Matrix Archetype 46,Social,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,39457,20,0.0,0.0,True
+synth_0461,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0462,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0463,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0464,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0465,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0466,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0467,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0468,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,matrix_correlation,dimension_grid_x_7,dimension_grid_y_7,heatmap,heatmap,5,116657,11,0.0,0.0,True
+synth_0469,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,composition_stacked,main_category_8,subsegment_metric_8,stacked_bar,bar,0,116657,11,0.0,0.0,True
+synth_0470,synth_ds_047,Sensor Network IoT Readings Archetype 47,IoT,distribution_single,metric_val_9,frequency_density,histogram,histogram,4,116657,11,0.04116366063400151,0.0,True
+synth_0471,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0472,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0473,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0474,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0475,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0476,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0477,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0478,synth_ds_048,Employee Performance Reviews Archetype 48,HR,composition_stacked,main_category_7,subsegment_metric_7,stacked_bar,bar,0,633,27,0.0,0.0,True
+synth_0479,synth_ds_048,Employee Performance Reviews Archetype 48,HR,distribution_single,metric_val_8,frequency_density,histogram,histogram,4,633,27,0.028844060065560423,0.0,True
+synth_0480,synth_ds_048,Employee Performance Reviews Archetype 48,HR,trend_temporal,timestamp_9,kpi_measurement_9,line,line,1,633,27,0.01429437667004072,0.5398165911975717,True
+synth_0481,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,35474,12,5.5604709809370384e-05,0.0,True
+synth_0482,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,35474,12,0.033252799450331556,0.0,True
+synth_0483,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,35474,12,0.02010136084441204,0.0,True
+synth_0484,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,35474,12,0.027014970338074984,0.0,True
+synth_0485,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,35474,12,0.019436317393827337,0.0,True
+synth_0486,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,35474,12,0.04368092643686077,0.0,True
+synth_0487,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,35474,12,0.01576197173247254,0.0,True
+synth_0488,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,part_to_whole,segment_slice_7,share_percentage_7,treemap,bar,0,35474,12,0.0,0.0,True
+synth_0489,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,correlation_numeric,continuous_var_a_8,continuous_var_b_8,bubble,scatter,2,35474,12,0.030855297221432817,-0.36627964434921256,True
+synth_0490,synth_ds_049,E-Commerce Order Analytics Archetype 49,Retail,distribution_by_group,group_factor_9,distribution_metric_9,box,box,3,35474,12,0.0031645028238310702,0.0,True
+synth_0491,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_0,kpi_measurement_0,line,line,1,342006,8,0.005046238541393742,0.3824112351038993,True
+synth_0492,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_1,kpi_measurement_1,line,line,1,342006,8,0.014034765477545143,0.5832636581108135,True
+synth_0493,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,342006,8,0.007918744523918997,0.49227155662972905,True
+synth_0494,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_3,kpi_measurement_3,line,line,1,342006,8,0.006786105346191349,0.4003520834172333,True
+synth_0495,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,342006,8,0.0077454882284968265,0.5243826930796929,True
+synth_0496,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_5,kpi_measurement_5,area,line,1,342006,8,0.012036134678908945,0.5671828382461092,True
+synth_0497,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,trend_temporal,timestamp_6,kpi_measurement_6,area,line,1,342006,8,0.011904594654388033,0.4829252801566233,True
+synth_0498,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,342006,8,0.008889774056994001,0.0,True
+synth_0499,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,342006,8,0.0,0.0,True
+synth_0500,synth_ds_050,Server Telemetry & Metrics Archetype 50,DevOps,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,342006,8,0.0,0.0,True
+synth_0501,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_0,sales_metric_0,grouped_bar,bar,0,2804,20,0.029128207488138557,0.0,True
+synth_0502,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_1,sales_metric_1,bar,bar,0,2804,20,0.01443833853657711,0.0,True
+synth_0503,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_2,sales_metric_2,bar,bar,0,2804,20,0.013195669191415047,0.0,True
+synth_0504,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_3,sales_metric_3,grouped_bar,bar,0,2804,20,0.0014508813314634262,0.0,True
+synth_0505,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_4,sales_metric_4,bar,bar,0,2804,20,0.023532164196383917,0.0,True
+synth_0506,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_5,sales_metric_5,bar,bar,0,2804,20,0.005545151938410748,0.0,True
+synth_0507,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_6,sales_metric_6,grouped_bar,bar,0,2804,20,0.004901002751952605,0.0,True
+synth_0508,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,category_comparison,category_name_7,sales_metric_7,bar,bar,0,2804,20,0.025174398242122573,0.0,True
+synth_0509,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,part_to_whole,segment_slice_8,share_percentage_8,treemap,bar,0,2804,20,0.0,0.0,True
+synth_0510,synth_ds_051,Clinical Patient Biomarkers Archetype 51,Healthcare,correlation_numeric,continuous_var_a_9,continuous_var_b_9,bubble,scatter,2,2804,20,0.0322786090713714,-0.5350293544329819,True
+synth_0511,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_0,share_percentage_0,pie,bar,0,21346,18,0.0,0.0,True
+synth_0512,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_1,share_percentage_1,pie,bar,0,21346,18,0.0,0.0,True
+synth_0513,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_2,share_percentage_2,donut,bar,0,21346,18,0.0,0.0,True
+synth_0514,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_3,share_percentage_3,pie,bar,0,21346,18,0.0,0.0,True
+synth_0515,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_4,share_percentage_4,donut,bar,0,21346,18,0.0,0.0,True
+synth_0516,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_5,share_percentage_5,pie,bar,0,21346,18,0.0,0.0,True
+synth_0517,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_6,share_percentage_6,donut,bar,0,21346,18,0.0,0.0,True
+synth_0518,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,part_to_whole,segment_slice_7,share_percentage_7,treemap,bar,0,21346,18,0.0,0.0,True
+synth_0519,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,correlation_numeric,continuous_var_a_8,continuous_var_b_8,bubble,scatter,2,21346,18,0.04891103342632792,-0.17113461366132166,True
+synth_0520,synth_ds_052,Real Estate Housing Valuation Archetype 52,Finance,distribution_by_group,group_factor_9,distribution_metric_9,box,box,3,21346,18,0.020761516591192346,0.0,True
+synth_0521,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_0,continuous_var_b_0,bubble,scatter,2,188611,7,0.0066504899453664395,0.29827527707192336,True
+synth_0522,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_1,continuous_var_b_1,scatter,scatter,2,188611,7,0.028779671432004102,-0.24172087612949178,True
+synth_0523,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_2,continuous_var_b_2,scatter,scatter,2,188611,7,0.028369547207803672,-0.40602386473153756,True
+synth_0524,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_3,continuous_var_b_3,scatter,scatter,2,188611,7,0.014281299428112154,-0.839010591757492,True
+synth_0525,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_4,continuous_var_b_4,scatter,scatter,2,188611,7,0.009814715115553353,0.03634093650536008,True
+synth_0526,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_5,continuous_var_b_5,scatter,scatter,2,188611,7,0.00993222884487029,-0.5426652440439548,True
+synth_0527,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,correlation_numeric,continuous_var_a_6,continuous_var_b_6,scatter,scatter,2,188611,7,0.020015641808649703,-0.4862090462128669,True
+synth_0528,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,188611,7,0.013260544074462949,0.22461045727038081,True
+synth_0529,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,category_comparison,category_name_8,sales_metric_8,bar,bar,0,188611,7,0.006619531788652454,0.0,True
+synth_0530,synth_ds_053,Mobile App Session Events Archetype 53,Product Analytics,part_to_whole,segment_slice_9,share_percentage_9,treemap,bar,0,188611,7,0.0,0.0,True
+synth_0531,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_0,distribution_metric_0,box,box,3,13945,20,0.028036316421465465,0.0,True
+synth_0532,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_1,distribution_metric_1,box,box,3,13945,20,0.020151265777321823,0.0,True
+synth_0533,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_2,distribution_metric_2,box,box,3,13945,20,0.022356442280725034,0.0,True
+synth_0534,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_3,distribution_metric_3,box,box,3,13945,20,0.022538367731213003,0.0,True
+synth_0535,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_4,distribution_metric_4,box,box,3,13945,20,0.01458520962314649,0.0,True
+synth_0536,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_5,distribution_metric_5,box,box,3,13945,20,0.025716928121093732,0.0,True
+synth_0537,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,distribution_by_group,group_factor_6,distribution_metric_6,box,box,3,13945,20,0.01937175130053161,0.0,True
+synth_0538,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,trend_temporal,timestamp_7,kpi_measurement_7,line,line,1,13945,20,0.0132462747746144,0.5525204531767963,True
+synth_0539,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,category_comparison,category_name_8,sales_metric_8,bar,bar,0,13945,20,0.0261912944104561,0.0,True
+synth_0540,synth_ds_054,Customer Churn Survey Archetype 54,Marketing,part_to_whole,segment_slice_9,share_percentage_9,pie,bar,0,13945,20,0.0,0.0,True
+synth_0541,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_0,dimension_grid_y_0,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0542,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_1,dimension_grid_y_1,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0543,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_2,dimension_grid_y_2,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0544,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_3,dimension_grid_y_3,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0545,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_4,dimension_grid_y_4,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0546,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_5,dimension_grid_y_5,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0547,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,matrix_correlation,dimension_grid_x_6,dimension_grid_y_6,heatmap,heatmap,5,22861,13,0.0,0.0,True
+synth_0548,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,composition_stacked,main_category_7,subsegment_metric_7,stacked_bar,bar,0,22861,13,0.0,0.0,True
+synth_0549,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,distribution_single,metric_val_8,frequency_density,histogram,histogram,4,22861,13,0.04399573133635073,0.0,True
+synth_0550,synth_ds_055,Stock Market Volatility Archetype 55,Fintech,trend_temporal,timestamp_9,kpi_measurement_9,line,line,1,22861,13,0.008443844677613561,0.3283236035930479,True
+synth_0551,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_0,subsegment_metric_0,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0552,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_1,subsegment_metric_1,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0553,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_2,subsegment_metric_2,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0554,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_3,subsegment_metric_3,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0555,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_4,subsegment_metric_4,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0556,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_5,subsegment_metric_5,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0557,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,composition_stacked,main_category_6,subsegment_metric_6,stacked_bar,bar,0,33660,15,0.0,0.0,True
+synth_0558,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,part_to_whole,segment_slice_7,share_percentage_7,pie,bar,0,33660,15,0.0,0.0,True
+synth_0559,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,correlation_numeric,continuous_var_a_8,continuous_var_b_8,scatter,scatter,2,33660,15,0.026919748964347887,0.4327679140497521,True
+synth_0560,synth_ds_056,Supply Chain Logistics Delivery Archetype 56,Logistics,distribution_by_group,group_factor_9,distribution_metric_9,box,box,3,33660,15,0.02482571081861451,0.0,True
+synth_0561,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_0,frequency_density,histogram,histogram,4,276,74,0.014568053641887225,0.0,True
+synth_0562,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_1,frequency_density,histogram,histogram,4,276,74,0.0030113472450148727,0.0,True
+synth_0563,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_2,frequency_density,histogram,histogram,4,276,74,0.003526781879647828,0.0,True
+synth_0564,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_3,frequency_density,histogram,histogram,4,276,74,0.00844050028922821,0.0,True
+synth_0565,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_4,frequency_density,histogram,histogram,4,276,74,0.009960984291853825,0.0,True
+synth_0566,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_5,frequency_density,histogram,histogram,4,276,74,0.015515424105227377,0.0,True
+synth_0567,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_6,frequency_density,histogram,histogram,4,276,74,0.02067582651449796,0.0,True
+synth_0568,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,matrix_correlation,dimension_grid_x_7,dimension_grid_y_7,heatmap,heatmap,5,276,74,0.0,0.0,True
+synth_0569,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,composition_stacked,main_category_8,subsegment_metric_8,stacked_bar,bar,0,276,74,0.0,0.0,True
+synth_0570,synth_ds_057,Genomic Expression Microarray Archetype 57,Bioinformatics,distribution_single,metric_val_9,frequency_density,histogram,histogram,4,276,74,0.0073010509648481275,0.0,True
+synth_0571,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_0,kpi_measurement_0,line,line,1,54159,14,0.00711915546941281,0.318741652584692,True
+synth_0572,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_1,kpi_measurement_1,line,line,1,54159,14,0.013921597231340784,0.2549315568703915,True
+synth_0573,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_2,kpi_measurement_2,line,line,1,54159,14,0.0005069720852787696,0.2402904061432568,True
+synth_0574,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_3,kpi_measurement_3,area,line,1,54159,14,0.018216525293726304,0.6829161598591662,True
+synth_0575,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_4,kpi_measurement_4,line,line,1,54159,14,0.017689574551935185,0.3860411274814479,True
+synth_0576,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_5,kpi_measurement_5,line,line,1,54159,14,0.014758555379976007,0.5719525936510759,True
+synth_0577,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,trend_temporal,timestamp_6,kpi_measurement_6,line,line,1,54159,14,0.019231014642751326,0.6059033591754431,True
+synth_0578,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,correlation_numeric,continuous_var_a_7,continuous_var_b_7,scatter,scatter,2,54159,14,0.039696756672592565,0.5924020164906499,True
+synth_0579,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,distribution_by_group,group_factor_8,distribution_metric_8,box,box,3,54159,14,0.022468894525811956,0.0,True
+synth_0580,synth_ds_058,Social Media Engagement Matrix Archetype 58,Social,matrix_correlation,dimension_grid_x_9,dimension_grid_y_9,heatmap,heatmap,5,54159,14,0.0,0.0,True
+synth_0581,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_0,sales_metric_0,bar,bar,0,220527,14,0.028714044976193884,0.0,True
+synth_0582,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_1,sales_metric_1,bar,bar,0,220527,14,0.00617940107630885,0.0,True
+synth_0583,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_2,sales_metric_2,bar,bar,0,220527,14,0.02184349312008499,0.0,True
+synth_0584,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_3,sales_metric_3,bar,bar,0,220527,14,0.026921919549647587,0.0,True
+synth_0585,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_4,sales_metric_4,bar,bar,0,220527,14,0.02608949054436514,0.0,True
+synth_0586,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_5,sales_metric_5,bar,bar,0,220527,14,0.01905970040124963,0.0,True
+synth_0587,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,category_comparison,category_name_6,sales_metric_6,bar,bar,0,220527,14,0.028593603431824134,0.0,True
+synth_0588,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,220527,14,0.009083253848159015,0.0,True
+synth_0589,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,220527,14,0.0,0.0,True
+synth_0590,synth_ds_059,Sensor Network IoT Readings Archetype 59,IoT,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,220527,14,0.0,0.0,True
+synth_0591,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_0,share_percentage_0,donut,bar,0,3281,15,0.0,0.0,True
+synth_0592,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_1,share_percentage_1,pie,bar,0,3281,15,0.0,0.0,True
+synth_0593,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_2,share_percentage_2,pie,bar,0,3281,15,0.0,0.0,True
+synth_0594,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_3,share_percentage_3,donut,bar,0,3281,15,0.0,0.0,True
+synth_0595,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_4,share_percentage_4,pie,bar,0,3281,15,0.0,0.0,True
+synth_0596,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_5,share_percentage_5,donut,bar,0,3281,15,0.0,0.0,True
+synth_0597,synth_ds_060,Employee Performance Reviews Archetype 60,HR,part_to_whole,segment_slice_6,share_percentage_6,pie,bar,0,3281,15,0.0,0.0,True
+synth_0598,synth_ds_060,Employee Performance Reviews Archetype 60,HR,distribution_by_group,group_factor_7,distribution_metric_7,box,box,3,3281,15,0.007194598566197707,0.0,True
+synth_0599,synth_ds_060,Employee Performance Reviews Archetype 60,HR,matrix_correlation,dimension_grid_x_8,dimension_grid_y_8,heatmap,heatmap,5,3281,15,0.0,0.0,True
+synth_0600,synth_ds_060,Employee Performance Reviews Archetype 60,HR,composition_stacked,main_category_9,subsegment_metric_9,stacked_bar,bar,0,3281,15,0.0,0.0,True

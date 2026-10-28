@@ -1,0 +1,276 @@
+{
+  "tenant_id": "generic_client_dynamic",
+  "user_id": "user_1",
+  "created_at": "2026-10-12T18:48:15.093413+00:00",
+  "updated_at": "2026-10-12T18:48:19.224215+00:00",
+  "history_count": 13,
+  "interactions": [
+    {
+      "event_id": "evt_1791830895092",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T18:48:15.092343+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_14",
+          "rank": 1,
+          "display_name": "Item #item_14",
+          "score": 0.9884,
+          "category": null
+        },
+        {
+          "item_id": "item_24",
+          "rank": 2,
+          "display_name": "Item #item_24",
+          "score": 0.9388,
+          "category": null
+        },
+        {
+          "item_id": "item_17",
+          "rank": 3,
+          "display_name": "Item #item_17",
+          "score": 0.937,
+          "category": null
+        },
+        {
+          "item_id": "item_9",
+          "rank": 4,
+          "display_name": "Item #item_9",
+          "score": 0.935,
+          "category": null
+        },
+        {
+          "item_id": "item_1",
+          "rank": 5,
+          "display_name": "Item #item_1",
+          "score": 0.9154,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 90.95,
+        "recommendation_id": "rec_5d67843c9abf",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830895173",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T18:48:15.173097+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_14",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791830895202",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T18:48:15.202971+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_1",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791830895218",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T18:48:15.218994+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_17",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791830895237",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T18:48:15.237698+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_9",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791830895256",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T18:48:15.256168+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_24",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791830896497",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T18:48:16.497530+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_24",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791830896707",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T18:48:16.707781+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_17",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791830896729",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T18:48:16.729889+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_14",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791830896750",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T18:48:16.750339+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_24",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791830897815",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T18:48:17.815453+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_24",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791830899172",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T18:48:19.172728+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_14",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791830899183",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T18:48:19.183512+00:00",
+      "dataset_id": "catalog_generic_client_dynamic",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "item_24",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5d67843c9abf"
+      },
+      "feedback": "LONG_VIEW"
+    }
+  ]
+}

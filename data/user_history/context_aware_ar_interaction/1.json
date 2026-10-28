@@ -1,0 +1,409 @@
+{
+  "tenant_id": "context_aware_ar_interaction",
+  "user_id": "1",
+  "created_at": "2026-10-12T17:09:56.314145+00:00",
+  "updated_at": "2026-10-26T09:22:48.865606+00:00",
+  "history_count": 12,
+  "interactions": [
+    {
+      "event_id": "evt_1791824996313",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:09:56.313812+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791824996342",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:09:56.342944+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791824996760",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:09:56.760653+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791824996780",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:09:56.780844+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825011204",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-12T17:10:11.204650+00:00",
+      "dataset_id": "customers-1000.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "customers-1000.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825011499",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:10:11.499348+00:00",
+      "dataset_id": "dataset_40",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_40"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825011530",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:10:11.530608+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825048275",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T17:10:48.275128+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.104,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825048410",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:10:48.410718+00:00",
+      "dataset_id": "dataset_40",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.184
+        },
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.154
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_40"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825048431",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:10:48.431617+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006568783",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:22:48.783926+00:00",
+      "dataset_id": "dataset_6",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "Longitude vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_age_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "User Age vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.985
+        },
+        {
+          "candidate_id": "cand_scatter_longitude_temperature_celsius",
+          "chart_type": "scatter",
+          "title": "Longitude vs Temperature Celsius Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.879
+        },
+        {
+          "candidate_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "title": "Latitude vs Longitude Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.834
+        },
+        {
+          "candidate_id": "cand_bubble_latitude_longitude",
+          "chart_type": "bubble",
+          "title": "Latitude vs Longitude (Sized by Temperature Celsius)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.834
+        },
+        {
+          "candidate_id": "cand_area_timestamp_latitude",
+          "chart_type": "area",
+          "title": "Latitude Cumulative Area over Timestamp",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.313
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_6"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006568844",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:22:48.844473+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    }
+  ]
+}

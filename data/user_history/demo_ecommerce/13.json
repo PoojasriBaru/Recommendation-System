@@ -1,0 +1,92 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "13",
+  "created_at": "2026-10-15T14:51:15.085284+00:00",
+  "updated_at": "2026-10-15T14:51:15.146056+00:00",
+  "history_count": 2,
+  "interactions": [
+    {
+      "event_id": "evt_1792075875084",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-15T14:51:15.084636+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792075875126",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-15T14:51:15.126729+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_dqo88tqf",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    }
+  ]
+}

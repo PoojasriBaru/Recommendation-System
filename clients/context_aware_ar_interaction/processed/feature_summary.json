@@ -1,0 +1,66 @@
+{
+  "client_id": "context_aware_ar_interaction",
+  "behavioral_dims": 8,
+  "content_dims": 7,
+  "context_dims": 37,
+  "content_meta_dims": 6,
+  "train_samples": 1700,
+  "val_samples": 566,
+  "test_samples": 568,
+  "train_positives": 880,
+  "val_positives": 287,
+  "test_positives": 315,
+  "cohort_stats": {
+    "K=1": {
+      "train_cold": 297,
+      "train_warm": 1403,
+      "train_cold_pct": 17.5,
+      "test_cold": 2,
+      "test_warm": 566,
+      "test_cold_pct": 0.4
+    },
+    "K=2": {
+      "train_cold": 590,
+      "train_warm": 1110,
+      "train_cold_pct": 34.7,
+      "test_cold": 3,
+      "test_warm": 565,
+      "test_cold_pct": 0.5
+    },
+    "K=3": {
+      "train_cold": 865,
+      "train_warm": 835,
+      "train_cold_pct": 50.9,
+      "test_cold": 7,
+      "test_warm": 561,
+      "test_cold_pct": 1.2
+    },
+    "K=5": {
+      "train_cold": 1323,
+      "train_warm": 377,
+      "train_cold_pct": 77.8,
+      "test_cold": 48,
+      "test_warm": 520,
+      "test_cold_pct": 8.5
+    }
+  },
+  "leakage_audit": {
+    "test_1_first_session_isolation": {
+      "status": "PASSED",
+      "description": "First-time interactions have strictly 0 historical purchases regardless of whether current session ended in purchase.",
+      "first_sessions_total": 300,
+      "first_sessions_purchased": 157,
+      "violations_detected": 0
+    },
+    "test_2_temporal_monotonicity": {
+      "status": "PASSED",
+      "description": "Historical interaction counts monotonically increase strictly row-by-row for each user.",
+      "violations_detected": 0
+    },
+    "test_3_excluded_leakage_fields": {
+      "status": "PASSED",
+      "description": "Identified post-decision and checkout fields strictly excluded from candidate predictor matrix.",
+      "excluded_fields": []
+    }
+  }
+}

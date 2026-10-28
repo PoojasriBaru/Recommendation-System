@@ -1,0 +1,60 @@
+{
+  "random_seed": 42,
+  "model_version": "v1",
+  "client_id": "demo_ecommerce",
+  "dataset": {
+    "raw_file": "data/raw/Ecommerce.csv",
+    "total_rows": 25000,
+    "total_columns": 29,
+    "unique_customers": 8442,
+    "unique_products": 899,
+    "product_categories": 8,
+    "splits": {
+      "train": {
+        "rows": 14494,
+        "date_range": "2024-01-01 to 2024-07-31",
+        "purchases": 3258
+      },
+      "validation": {
+        "rows": 4212,
+        "date_range": "2024-08-01 to 2024-09-30",
+        "purchases": 981
+      },
+      "test": {
+        "rows": 6294,
+        "date_range": "2024-10-01 to 2024-12-30",
+        "purchases": 1377
+      }
+    }
+  },
+  "feature_dimensions": {
+    "behavior": 16,
+    "content": 12,
+    "context": 21
+  },
+  "candidate_ranking_protocol": {
+    "protocol_type": "Sampled Offline Ranking Evaluation (1 positive + 99 unpurchased negatives; not full-catalog evaluation)",
+    "num_negatives": 99,
+    "negative_sampling_policy": "Strictly from products never purchased by customer across entire dataset",
+    "sorting": "Stable sort descending by candidate score",
+    "metrics": [
+      "Precision@5",
+      "Recall@5",
+      "NDCG@5",
+      "HitRate@5",
+      "Precision@10",
+      "Recall@10",
+      "NDCG@10",
+      "HitRate@10",
+      "MeanRank"
+    ]
+  },
+  "cold_start_thresholds_evaluated": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "primary_threshold": 3,
+  "timestamp": "2026-09-28T20:55:00Z"
+}

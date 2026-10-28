@@ -1,0 +1,111 @@
+{
+  "tenant_id": "fashion_client",
+  "user_id": "anon_user_42",
+  "created_at": "2026-10-12T15:45:48.904596+00:00",
+  "updated_at": "2026-10-12T15:49:21.881010+00:00",
+  "history_count": 2,
+  "interactions": [
+    {
+      "event_id": "evt_1791819948903",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:48.903983+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "rank": 1,
+          "display_name": "Franco Leone Men Formal Black Shoes",
+          "score": 0.9917,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "56846",
+          "rank": 2,
+          "display_name": "John Players Men Blue Jeans",
+          "score": 0.9913,
+          "category": "Jeans"
+        },
+        {
+          "item_id": "27370",
+          "rank": 3,
+          "display_name": "Tantra Men Singer Blue T-shirt",
+          "score": 0.9886,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "19259",
+          "rank": 4,
+          "display_name": "Guess Women Trapeze Gold Watch",
+          "score": 0.9867,
+          "category": "Watches"
+        },
+        {
+          "item_id": "1584",
+          "rank": 5,
+          "display_name": "Domyos Unisex Feather-light Jacket",
+          "score": 0.9865,
+          "category": "Jackets"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 26.83,
+        "recommendation_id": "rec_69d4bca2a482",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820161872",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:21.872676+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "rank": 1,
+          "display_name": "Franco Leone Men Formal Black Shoes",
+          "score": 0.9917,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "56846",
+          "rank": 2,
+          "display_name": "John Players Men Blue Jeans",
+          "score": 0.9913,
+          "category": "Jeans"
+        },
+        {
+          "item_id": "27370",
+          "rank": 3,
+          "display_name": "Tantra Men Singer Blue T-shirt",
+          "score": 0.9886,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "19259",
+          "rank": 4,
+          "display_name": "Guess Women Trapeze Gold Watch",
+          "score": 0.9867,
+          "category": "Watches"
+        },
+        {
+          "item_id": "1584",
+          "rank": 5,
+          "display_name": "Domyos Unisex Feather-light Jacket",
+          "score": 0.9865,
+          "category": "Jackets"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 26.23,
+        "recommendation_id": "rec_fec535995f30",
+        "status": "cold_start"
+      },
+      "feedback": null
+    }
+  ]
+}

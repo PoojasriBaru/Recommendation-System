@@ -1,0 +1,26 @@
+{
+  "environment": "Local Prototype (Windows, Python 3.13, FastAPI TestClient)",
+  "catalog_size": 899,
+  "cold_start": {
+    "cohort": "Cold Start (N_hist = 0)",
+    "catalog_size": 899,
+    "cache_state": "Warm Model & Catalog Cache",
+    "repetitions": 50,
+    "mean_ms": 61.15,
+    "median_ms": 56.72,
+    "min_ms": 44.18,
+    "max_ms": 123.87,
+    "std_ms": 15.01
+  },
+  "warm_start": {
+    "cohort": "Warm Start (N_hist = 8)",
+    "catalog_size": 899,
+    "cache_state": "Warm Model & Catalog Cache",
+    "repetitions": 50,
+    "mean_ms": 69.45,
+    "median_ms": 66.52,
+    "min_ms": 48.37,
+    "max_ms": 110.29,
+    "std_ms": 14.94
+  }
+}

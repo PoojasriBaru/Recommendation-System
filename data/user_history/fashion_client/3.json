@@ -1,0 +1,1510 @@
+{
+  "tenant_id": "fashion_client",
+  "user_id": "3",
+  "created_at": "2026-10-12T16:04:43.493223+00:00",
+  "updated_at": "2026-10-26T08:58:08.257853+00:00",
+  "history_count": 65,
+  "interactions": [
+    {
+      "event_id": "evt_1791821083492",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:04:43.492905+00:00",
+      "dataset_id": "dataset_38",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.954
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.902
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_38"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821083891",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:04:43.891043+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821099521",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-12T16:04:59.522060+00:00",
+      "dataset_id": "customers-1000.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "customers-1000.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821100171",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:05:00.171779+00:00",
+      "dataset_id": "dataset_39",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_39"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821100190",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:05:00.190124+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821107238",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T16:05:07.238150+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.104,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821107373",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:05:07.373284+00:00",
+      "dataset_id": "dataset_39",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.184
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.154
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_39"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821107415",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:05:07.415463+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821110530",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T16:05:10.530753+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.154,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821110739",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:05:10.739362+00:00",
+      "dataset_id": "dataset_39",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.184
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.184
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_39"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821110761",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:05:10.761353+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821114466",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T16:05:14.466771+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.05,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821114652",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:05:14.652065+00:00",
+      "dataset_id": "dataset_39",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.134
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.134
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.08
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_39"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821114678",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:05:14.678737+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830472676",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:12.676769+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830472722",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:12.722926+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830472787",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:12.787306+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830472824",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:12.824733+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792076045538",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:05.538113+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25040",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076045597",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:05.597786+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076045601",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:05.601931+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25919",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076045637",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:05.637960+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7530",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076045646",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:05.646429+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "17511",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076045658",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-15T14:54:05.658273+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "rank": 1,
+          "display_name": "Franco Leone Men Formal Black Shoes",
+          "score": 0.9953,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "56846",
+          "rank": 2,
+          "display_name": "John Players Men Blue Jeans",
+          "score": 0.9897,
+          "category": "Jeans"
+        },
+        {
+          "item_id": "44749",
+          "rank": 3,
+          "display_name": "Globalite Men Grey Tracker Shoes",
+          "score": 0.9897,
+          "category": "Casual Shoes"
+        },
+        {
+          "item_id": "19259",
+          "rank": 4,
+          "display_name": "Guess Women Trapeze Gold Watch",
+          "score": 0.9895,
+          "category": "Watches"
+        },
+        {
+          "item_id": "17766",
+          "rank": 5,
+          "display_name": "Buckaroo Jefe Men Olive Casual Shoes",
+          "score": 0.9884,
+          "category": "Casual Shoes"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 107.67,
+        "recommendation_id": "rec_c34e319d5119",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792076045831",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:05.831936+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076045857",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:05.857619+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076045893",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:05.893894+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "17766",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076045914",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:05.914985+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19259",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076045928",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:05.928990+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "44749",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076047345",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:54:07.345869+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076047363",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:54:07.363295+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "44749",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076047386",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:54:07.386555+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076049824",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-15T14:54:09.824385+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792076049841",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-15T14:54:09.841292+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792076058396",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-15T14:54:18.396860+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1792076065741",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:25.741862+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076065810",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:25.810354+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "44749",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076065868",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:25.868634+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19259",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076065884",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-15T14:54:25.884186+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "17766",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_c34e319d5119"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792076065899",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-15T14:54:25.899827+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "rank": 1,
+          "display_name": "Franco Leone Men Formal Black Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "35484",
+          "rank": 2,
+          "display_name": "Hush Puppies Men Jungle Black Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "55625",
+          "rank": 3,
+          "display_name": "Numero Uno Men Brown Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "56846",
+          "rank": 4,
+          "display_name": "John Players Men Blue Jeans",
+          "score": 0.9999,
+          "category": "Jeans"
+        },
+        {
+          "item_id": "44749",
+          "rank": 5,
+          "display_name": "Globalite Men Grey Tracker Shoes",
+          "score": 0.9999,
+          "category": "Casual Shoes"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 119.74,
+        "recommendation_id": "rec_627fc3202cd6",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792076066023",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:26.023999+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076066057",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:26.057503+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076066078",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:26.078528+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "44749",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076066090",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:26.090267+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076066106",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:54:26.106912+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076067527",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:54:27.527472+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076067541",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:54:27.541137+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076067559",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:54:27.559161+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076070020",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-15T14:54:30.020031+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792076070037",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-15T14:54:30.037571+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_627fc3202cd6"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005083953",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:58:03.953539+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005083973",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:58:03.973208+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005083976",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:58:03.976858+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005084012",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:58:04.012078+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005084023",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T08:58:04.023082+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "47200",
+          "rank": 1,
+          "display_name": "Franco Leone Men Black Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "35484",
+          "rank": 2,
+          "display_name": "Hush Puppies Men Jungle Black Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "20836",
+          "rank": 3,
+          "display_name": "Hush Puppies Men Formal Brown Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "56846",
+          "rank": 4,
+          "display_name": "John Players Men Blue Jeans",
+          "score": 0.9999,
+          "category": "Jeans"
+        },
+        {
+          "item_id": "57949",
+          "rank": 5,
+          "display_name": "Clarks Men Brown Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 125.89,
+        "recommendation_id": "rec_c14fade9909c",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005084203",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:58:04.203906+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "47200",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005084241",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:58:04.241997+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005084332",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:58:04.332376+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005084349",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:58:04.349345+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "57949",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005084363",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:58:04.363656+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "20836",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005087104",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:58:07.104838+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "47200",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005087122",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:58:07.122116+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "20836",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005087138",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:58:07.138227+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005088193",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T08:58:08.193817+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005088215",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T08:58:08.215377+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "47200",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_c14fade9909c"
+      },
+      "feedback": "LONG_VIEW"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "cold_user_999999",
+  "created_at": "2026-10-12T15:45:48.645972+00:00",
+  "updated_at": "2026-10-12T15:49:21.624453+00:00",
+  "history_count": 2,
+  "interactions": [
+    {
+      "event_id": "evt_1791819948645",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:48.645646+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "333",
+          "rank": 1,
+          "display_name": "Toys & Games SKU-333 ($1424.41)",
+          "score": 0.6297,
+          "category": "6"
+        },
+        {
+          "item_id": "750",
+          "rank": 2,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.6269,
+          "category": "6"
+        },
+        {
+          "item_id": "562",
+          "rank": 3,
+          "display_name": "Toys & Games SKU-562 ($1840.14)",
+          "score": 0.6211,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 22.5,
+        "recommendation_id": "rec_f077ea6ea3fe",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820161612",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:21.612915+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "333",
+          "rank": 1,
+          "display_name": "Toys & Games SKU-333 ($1424.41)",
+          "score": 0.6297,
+          "category": "6"
+        },
+        {
+          "item_id": "750",
+          "rank": 2,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.6269,
+          "category": "6"
+        },
+        {
+          "item_id": "562",
+          "rank": 3,
+          "display_name": "Toys & Games SKU-562 ($1840.14)",
+          "score": 0.6211,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 14.9,
+        "recommendation_id": "rec_508cee99f1ff",
+        "status": "cold_start"
+      },
+      "feedback": null
+    }
+  ]
+}

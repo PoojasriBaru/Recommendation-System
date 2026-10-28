@@ -1,0 +1,886 @@
+{
+  "tenant_id": "movielens_dataset",
+  "user_id": "3",
+  "created_at": "2026-10-26T09:18:15.297129+00:00",
+  "updated_at": "2026-10-26T09:19:21.290889+00:00",
+  "history_count": 44,
+  "interactions": [
+    {
+      "event_id": "evt_1793006295296",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T09:18:15.296400+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "rank": 1,
+          "display_name": "Little Caesar (1931)",
+          "score": 0.914,
+          "category": null
+        },
+        {
+          "item_id": "3711",
+          "rank": 2,
+          "display_name": "Sarafina! (1992)",
+          "score": 0.9121,
+          "category": null
+        },
+        {
+          "item_id": "49265",
+          "rank": 3,
+          "display_name": "Shooting Dogs (a.k.a. Beyond the Gates) (2005)",
+          "score": 0.9114,
+          "category": null
+        },
+        {
+          "item_id": "26122",
+          "rank": 4,
+          "display_name": "Onibaba (1964)",
+          "score": 0.9111,
+          "category": null
+        },
+        {
+          "item_id": "3429",
+          "rank": 5,
+          "display_name": "Creature Comforts (1989)",
+          "score": 0.9107,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 637.04,
+        "recommendation_id": "rec_fe6e09a6d680",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006295354",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:15.354944+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006295385",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:15.385297+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006295433",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:15.433557+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006295456",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:15.456492+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006295473",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:15.473485+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "26122",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006296865",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:16.865639+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006296884",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:16.884968+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006296901",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:16.901812+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006299351",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:18:19.351614+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006299371",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:18:19.371149+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006299761",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T09:18:19.761998+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1793006323906",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T09:18:43.906235+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1793006325698",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-26T09:18:45.698910+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1793006331079",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:51.079677+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006331224",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:51.224559+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "26122",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006331321",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:51.321706+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006331354",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:51.354613+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_fe6e09a6d680"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006331618",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T09:18:51.619009+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "rank": 1,
+          "display_name": "Little Caesar (1931)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "3711",
+          "rank": 2,
+          "display_name": "Sarafina! (1992)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "49265",
+          "rank": 3,
+          "display_name": "Shooting Dogs (a.k.a. Beyond the Gates) (2005)",
+          "score": 0.938,
+          "category": null
+        },
+        {
+          "item_id": "1939",
+          "rank": 4,
+          "display_name": "Best Years of Our Lives, The (1946)",
+          "score": 0.9087,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 545.91,
+        "recommendation_id": "rec_a501cac0dcc3",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006331708",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:51.708684+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006331727",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:51.727802+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "1939",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006331746",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:51.746087+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006331761",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:51.761466+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006333214",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:53.214597+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006333224",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:53.224712+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006333240",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:53.240276+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006335699",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:18:55.699600+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006335719",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:18:55.719942+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006344332",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:19:04.332742+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006344354",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:19:04.354421+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55363",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006344380",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:19:04.380122+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "26122",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006344540",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:19:04.540364+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006344880",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T09:19:04.880320+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "rank": 1,
+          "display_name": "Little Caesar (1931)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "3711",
+          "rank": 2,
+          "display_name": "Sarafina! (1992)",
+          "score": 0.9999,
+          "category": null
+        },
+        {
+          "item_id": "49265",
+          "rank": 3,
+          "display_name": "Shooting Dogs (a.k.a. Beyond the Gates) (2005)",
+          "score": 0.9699,
+          "category": null
+        },
+        {
+          "item_id": "1939",
+          "rank": 4,
+          "display_name": "Best Years of Our Lives, The (1946)",
+          "score": 0.9087,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 555.73,
+        "recommendation_id": "rec_7d16a8effdc7",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006344951",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:19:04.951436+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006344962",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:19:04.962133+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "1939",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006344978",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:19:04.978742+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006344996",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:19:04.996690+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006346479",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:19:06.479117+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006346497",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:19:06.497685+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006346516",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:19:06.516786+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006348961",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:19:08.961437+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006348981",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:19:08.981239+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006356990",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T09:19:16.990177+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1793006361268",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T09:19:21.268810+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7d16a8effdc7"
+      },
+      "feedback": "CLICK"
+    }
+  ]
+}

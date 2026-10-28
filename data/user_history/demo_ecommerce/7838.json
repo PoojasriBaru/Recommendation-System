@@ -1,0 +1,213 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "7838",
+  "created_at": "2026-10-12T15:45:52.388914+00:00",
+  "updated_at": "2026-10-12T15:49:30.576347+00:00",
+  "history_count": 4,
+  "interactions": [
+    {
+      "event_id": "evt_1791819952388",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:52.388512+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6721,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.6574,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6554,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6536,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.6528,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 527.41,
+        "recommendation_id": "rec_cd97cdbdb6f7",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791819957262",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:57.262817+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6721,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.6574,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6554,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6536,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.6528,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 24.74,
+        "recommendation_id": "rec_c8adf1454957",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820165439",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:25.439399+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6721,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.6574,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6554,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6536,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.6528,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 556.39,
+        "recommendation_id": "rec_bf726bff013f",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820170566",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:30.566467+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6721,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.6574,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6554,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6536,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.6528,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 27.72,
+        "recommendation_id": "rec_728c94180e44",
+        "status": "cold_start"
+      },
+      "feedback": null
+    }
+  ]
+}

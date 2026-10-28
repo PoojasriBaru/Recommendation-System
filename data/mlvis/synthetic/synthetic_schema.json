@@ -1,0 +1,121 @@
+{
+  "dataset_name": "Synthetic Visualization Benchmark 600",
+  "description": "600 curated synthetic dataset & visualization profiles across 60 dataset archetypes, designed to evaluate and improve visualization recommendation without leakage.",
+  "generation_seed": 42,
+  "total_records": 600,
+  "total_archetypes": 60,
+  "records_per_archetype": 10,
+  "is_synthetic": true,
+  "feature_dimensions": 26,
+  "feature_names": [
+    "ds_log_rows",
+    "ds_num_cols",
+    "ds_numeric_ratio",
+    "ds_categorical_ratio",
+    "x_is_numeric",
+    "x_is_categorical",
+    "x_is_datetime",
+    "x_unique_ratio",
+    "x_missing_ratio",
+    "x_entropy",
+    "x_skewness",
+    "x_mean_magnitude",
+    "y_is_numeric",
+    "y_is_categorical",
+    "y_is_datetime",
+    "y_unique_ratio",
+    "y_missing_ratio",
+    "y_entropy",
+    "y_skewness",
+    "y_mean_magnitude",
+    "xy_is_both_numeric",
+    "xy_is_cat_num",
+    "xy_is_num_cat",
+    "xy_is_both_cat",
+    "xy_correlation",
+    "xy_cardinality_ratio"
+  ],
+  "extended_chart_types": [
+    "bar",
+    "line",
+    "scatter",
+    "box",
+    "histogram",
+    "heatmap",
+    "pie",
+    "donut",
+    "area",
+    "stacked_bar",
+    "grouped_bar",
+    "bubble",
+    "treemap"
+  ],
+  "canonical_classes": [
+    "bar",
+    "line",
+    "scatter",
+    "box",
+    "histogram",
+    "heatmap"
+  ],
+  "canonical_to_extended_mapping": {
+    "bar": [
+      "bar",
+      "grouped_bar",
+      "stacked_bar",
+      "pie",
+      "donut",
+      "treemap"
+    ],
+    "line": [
+      "line",
+      "area"
+    ],
+    "scatter": [
+      "scatter",
+      "bubble"
+    ],
+    "box": [
+      "box"
+    ],
+    "histogram": [
+      "histogram"
+    ],
+    "heatmap": [
+      "heatmap"
+    ]
+  },
+  "target_distribution_canonical": {
+    "bar": 230,
+    "line": 80,
+    "scatter": 71,
+    "box": 71,
+    "histogram": 77,
+    "heatmap": 71
+  },
+  "target_distribution_extended": {
+    "histogram": 77,
+    "heatmap": 71,
+    "box": 71,
+    "stacked_bar": 68,
+    "line": 61,
+    "bar": 61,
+    "scatter": 53,
+    "pie": 39,
+    "donut": 22,
+    "grouped_bar": 22,
+    "area": 19,
+    "treemap": 18,
+    "bubble": 18
+  },
+  "analytical_tasks_distribution": {
+    "category_comparison": 83,
+    "trend_temporal": 80,
+    "part_to_whole": 79,
+    "distribution_single": 77,
+    "matrix_correlation": 71,
+    "correlation_numeric": 71,
+    "distribution_by_group": 71,
+    "composition_stacked": 68
+  }
+}

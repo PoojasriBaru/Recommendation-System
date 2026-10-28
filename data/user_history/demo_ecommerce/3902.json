@@ -1,0 +1,111 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "3902",
+  "created_at": "2026-10-12T15:45:57.393662+00:00",
+  "updated_at": "2026-10-12T15:49:30.729171+00:00",
+  "history_count": 2,
+  "interactions": [
+    {
+      "event_id": "evt_1791819957393",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:57.393260+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "626",
+          "rank": 1,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6952,
+          "category": "5"
+        },
+        {
+          "item_id": "50",
+          "rank": 2,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6887,
+          "category": "2"
+        },
+        {
+          "item_id": "131",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-131 ($1688.33)",
+          "score": 0.6886,
+          "category": "5"
+        },
+        {
+          "item_id": "301",
+          "rank": 4,
+          "display_name": "Beauty & Personal Care SKU-301 ($1499.58)",
+          "score": 0.6813,
+          "category": "3"
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.6776,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 27.13,
+        "recommendation_id": "rec_f30a155b9393",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820170721",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:30.721030+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "626",
+          "rank": 1,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6952,
+          "category": "5"
+        },
+        {
+          "item_id": "50",
+          "rank": 2,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6887,
+          "category": "2"
+        },
+        {
+          "item_id": "131",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-131 ($1688.33)",
+          "score": 0.6886,
+          "category": "5"
+        },
+        {
+          "item_id": "301",
+          "rank": 4,
+          "display_name": "Beauty & Personal Care SKU-301 ($1499.58)",
+          "score": 0.6813,
+          "category": "3"
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.6776,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 27.82,
+        "recommendation_id": "rec_cd34ac358b86",
+        "status": "warm_start"
+      },
+      "feedback": null
+    }
+  ]
+}

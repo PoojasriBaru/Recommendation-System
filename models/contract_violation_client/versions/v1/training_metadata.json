@@ -1,0 +1,15 @@
+{
+  "client_id": "contract_violation_client",
+  "model_version": "v1",
+  "training_run_id": "run_bad_01",
+  "dataset_reference": "train.csv",
+  "training_timestamp": "2026-10-12T15:49:29.942046+00:00",
+  "feature_dimensions": {
+    "behavior": 4,
+    "content": 3,
+    "context": 2
+  },
+  "cold_start_threshold": 2,
+  "random_seed": 42,
+  "legacy_imported": false
+}

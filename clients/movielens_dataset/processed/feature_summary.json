@@ -1,0 +1,69 @@
+{
+  "client_id": "movielens_dataset",
+  "behavioral_dims": 6,
+  "content_dims": 40,
+  "context_dims": 1,
+  "content_meta_dims": 39,
+  "train_samples": 60501,
+  "val_samples": 20167,
+  "test_samples": 20168,
+  "train_positives": 29115,
+  "val_positives": 10139,
+  "test_positives": 9326,
+  "cohort_stats": {
+    "K=1": {
+      "train_cold": 381,
+      "train_warm": 60120,
+      "train_cold_pct": 0.6,
+      "test_cold": 88,
+      "test_warm": 20080,
+      "test_cold_pct": 0.4
+    },
+    "K=2": {
+      "train_cold": 762,
+      "train_warm": 59739,
+      "train_cold_pct": 1.3,
+      "test_cold": 176,
+      "test_warm": 19992,
+      "test_cold_pct": 0.9
+    },
+    "K=3": {
+      "train_cold": 1143,
+      "train_warm": 59358,
+      "train_cold_pct": 1.9,
+      "test_cold": 264,
+      "test_warm": 19904,
+      "test_cold_pct": 1.3
+    },
+    "K=5": {
+      "train_cold": 1905,
+      "train_warm": 58596,
+      "train_cold_pct": 3.1,
+      "test_cold": 440,
+      "test_warm": 19728,
+      "test_cold_pct": 2.2
+    }
+  },
+  "leakage_audit": {
+    "test_1_first_session_isolation": {
+      "status": "PASSED",
+      "description": "First-time interactions have strictly 0 historical purchases regardless of whether current session ended in purchase.",
+      "first_sessions_total": 610,
+      "first_sessions_purchased": 337,
+      "violations_detected": 0
+    },
+    "test_2_temporal_monotonicity": {
+      "status": "PASSED",
+      "description": "Historical interaction counts monotonically increase strictly row-by-row for each user.",
+      "violations_detected": 0
+    },
+    "test_3_excluded_leakage_fields": {
+      "status": "PASSED",
+      "description": "Identified post-decision and checkout fields strictly excluded from candidate predictor matrix.",
+      "excluded_fields": [
+        "rating",
+        "movie_title"
+      ]
+    }
+  }
+}

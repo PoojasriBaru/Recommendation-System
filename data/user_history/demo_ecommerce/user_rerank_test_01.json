@@ -1,0 +1,425 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "user_rerank_test_01",
+  "created_at": "2026-10-12T15:45:49.853052+00:00",
+  "updated_at": "2026-10-12T15:49:22.957649+00:00",
+  "history_count": 8,
+  "interactions": [
+    {
+      "event_id": "evt_1791819949852",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:49.852658+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6731,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.659,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6549,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6541,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.654,
+          "category": "6"
+        },
+        {
+          "item_id": "301",
+          "rank": 6,
+          "display_name": "Beauty & Personal Care SKU-301 ($1499.58)",
+          "score": 0.6522,
+          "category": "3"
+        },
+        {
+          "item_id": "750",
+          "rank": 7,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.6481,
+          "category": "6"
+        },
+        {
+          "item_id": "532",
+          "rank": 8,
+          "display_name": "Books & Stationery SKU-532 ($1358.02)",
+          "score": 0.647,
+          "category": "5"
+        },
+        {
+          "item_id": "131",
+          "rank": 9,
+          "display_name": "Books & Stationery SKU-131 ($1688.33)",
+          "score": 0.6437,
+          "category": "5"
+        },
+        {
+          "item_id": "393",
+          "rank": 10,
+          "display_name": "Books & Stationery SKU-393 ($1546.97)",
+          "score": 0.6418,
+          "category": "5"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 464.87,
+        "recommendation_id": "rec_12dc0e84eacf",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791819949869",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T15:45:49.869347+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "579",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_12dc0e84eacf"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791819949893",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T15:45:49.893720+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "579",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_12dc0e84eacf"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791819949931",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:45:49.931994+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "579",
+          "rank": 1,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.9999,
+          "category": "6"
+        },
+        {
+          "item_id": "750",
+          "rank": 2,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.7875,
+          "category": "6"
+        },
+        {
+          "item_id": "97",
+          "rank": 3,
+          "display_name": "Toys & Games SKU-97 ($1658.35)",
+          "score": 0.7772,
+          "category": "6"
+        },
+        {
+          "item_id": "562",
+          "rank": 4,
+          "display_name": "Toys & Games SKU-562 ($1840.14)",
+          "score": 0.7751,
+          "category": "6"
+        },
+        {
+          "item_id": "885",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-885 ($1777.88)",
+          "score": 0.7731,
+          "category": "6"
+        },
+        {
+          "item_id": "91",
+          "rank": 6,
+          "display_name": "Toys & Games SKU-91 ($464.85)",
+          "score": 0.7602,
+          "category": "6"
+        },
+        {
+          "item_id": "362",
+          "rank": 7,
+          "display_name": "Toys & Games SKU-362 ($1169.72)",
+          "score": 0.7559,
+          "category": "6"
+        },
+        {
+          "item_id": "333",
+          "rank": 8,
+          "display_name": "Toys & Games SKU-333 ($1424.41)",
+          "score": 0.7466,
+          "category": "6"
+        },
+        {
+          "item_id": "560",
+          "rank": 9,
+          "display_name": "Toys & Games SKU-560 ($364.42)",
+          "score": 0.7464,
+          "category": "6"
+        },
+        {
+          "item_id": "632",
+          "rank": 10,
+          "display_name": "Toys & Games SKU-632 ($562.33)",
+          "score": 0.7444,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 15.88,
+        "recommendation_id": "rec_9d17906e2f00",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820162859",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:22.859024+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "50",
+          "rank": 1,
+          "display_name": "Home & Kitchen SKU-50 ($1274.96)",
+          "score": 0.6731,
+          "category": "2"
+        },
+        {
+          "item_id": "618",
+          "rank": 2,
+          "display_name": "Automotive SKU-618 ($1031.46)",
+          "score": 0.659,
+          "category": "7"
+        },
+        {
+          "item_id": "626",
+          "rank": 3,
+          "display_name": "Books & Stationery SKU-626 ($1241.13)",
+          "score": 0.6549,
+          "category": "5"
+        },
+        {
+          "item_id": "497",
+          "rank": 4,
+          "display_name": "Electronics SKU-497 ($906.62)",
+          "score": 0.6541,
+          "category": null
+        },
+        {
+          "item_id": "579",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.654,
+          "category": "6"
+        },
+        {
+          "item_id": "301",
+          "rank": 6,
+          "display_name": "Beauty & Personal Care SKU-301 ($1499.58)",
+          "score": 0.6522,
+          "category": "3"
+        },
+        {
+          "item_id": "750",
+          "rank": 7,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.6481,
+          "category": "6"
+        },
+        {
+          "item_id": "532",
+          "rank": 8,
+          "display_name": "Books & Stationery SKU-532 ($1358.02)",
+          "score": 0.647,
+          "category": "5"
+        },
+        {
+          "item_id": "131",
+          "rank": 9,
+          "display_name": "Books & Stationery SKU-131 ($1688.33)",
+          "score": 0.6437,
+          "category": "5"
+        },
+        {
+          "item_id": "393",
+          "rank": 10,
+          "display_name": "Books & Stationery SKU-393 ($1546.97)",
+          "score": 0.6418,
+          "category": "5"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 454.97,
+        "recommendation_id": "rec_2f652fcbd37c",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791820162885",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T15:49:22.885106+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "579",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_2f652fcbd37c"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791820162908",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T15:49:22.908473+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "579",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_2f652fcbd37c"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791820162948",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T15:49:22.948430+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "579",
+          "rank": 1,
+          "display_name": "Toys & Games SKU-579 ($1264.57)",
+          "score": 0.9999,
+          "category": "6"
+        },
+        {
+          "item_id": "750",
+          "rank": 2,
+          "display_name": "Toys & Games SKU-750 ($489.45)",
+          "score": 0.7875,
+          "category": "6"
+        },
+        {
+          "item_id": "97",
+          "rank": 3,
+          "display_name": "Toys & Games SKU-97 ($1658.35)",
+          "score": 0.7772,
+          "category": "6"
+        },
+        {
+          "item_id": "562",
+          "rank": 4,
+          "display_name": "Toys & Games SKU-562 ($1840.14)",
+          "score": 0.7751,
+          "category": "6"
+        },
+        {
+          "item_id": "885",
+          "rank": 5,
+          "display_name": "Toys & Games SKU-885 ($1777.88)",
+          "score": 0.7731,
+          "category": "6"
+        },
+        {
+          "item_id": "91",
+          "rank": 6,
+          "display_name": "Toys & Games SKU-91 ($464.85)",
+          "score": 0.7602,
+          "category": "6"
+        },
+        {
+          "item_id": "362",
+          "rank": 7,
+          "display_name": "Toys & Games SKU-362 ($1169.72)",
+          "score": 0.7559,
+          "category": "6"
+        },
+        {
+          "item_id": "333",
+          "rank": 8,
+          "display_name": "Toys & Games SKU-333 ($1424.41)",
+          "score": 0.7466,
+          "category": "6"
+        },
+        {
+          "item_id": "560",
+          "rank": 9,
+          "display_name": "Toys & Games SKU-560 ($364.42)",
+          "score": 0.7464,
+          "category": "6"
+        },
+        {
+          "item_id": "632",
+          "rank": 10,
+          "display_name": "Toys & Games SKU-632 ($562.33)",
+          "score": 0.7444,
+          "category": "6"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 17.73,
+        "recommendation_id": "rec_59c821784e64",
+        "status": "cold_start"
+      },
+      "feedback": null
+    }
+  ]
+}

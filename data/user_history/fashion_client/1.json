@@ -1,0 +1,5975 @@
+{
+  "tenant_id": "fashion_client",
+  "user_id": "1",
+  "created_at": "2026-10-12T16:04:12.952758+00:00",
+  "updated_at": "2026-10-28T09:41:17.467800+00:00",
+  "history_count": 156,
+  "interactions": [
+    {
+      "event_id": "evt_1791821052952",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:04:12.952103+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821053019",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:04:13.019077+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821053871",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:04:13.871645+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821053899",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:04:13.899059+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821073154",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-12T16:04:33.154542+00:00",
+      "dataset_id": "Ecommerce.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "Ecommerce.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821074241",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:04:34.241988+00:00",
+      "dataset_id": "dataset_38",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.967
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.952
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.904
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_38"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821074263",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:04:34.263090+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821077403",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T16:04:37.403639+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.967,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821077980",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:04:37.980371+00:00",
+      "dataset_id": "dataset_38",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.984
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.932
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_38"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821078000",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:04:38.000289+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821183214",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:06:23.214845+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821183264",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:06:23.264601+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821183768",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T16:06:23.768104+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821183792",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T16:06:23.792814+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_615xnmor",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825273929",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:14:33.929647+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825273971",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:14:33.971192+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825274469",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:14:34.469028+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825274491",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:14:34.491153+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825281856",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:14:41.856871+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825281933",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:14:41.933163+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825282394",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:14:42.394909+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825282416",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:14:42.416320+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825344632",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-12T17:15:44.632721+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825345270",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:15:45.270367+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_correlation_heatmap_overall",
+          "chart_type": "heatmap",
+          "title": "Multivariate Correlation Matrix",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.1
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825345691",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:15:45.691157+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825358750",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:15:58.750161+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825358805",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:15:58.805734+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825359309",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:15:59.309421+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825359348",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:15:59.348027+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825388325",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:16:28.325094+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825388365",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:16:28.365250+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825388894",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:16:28.894374+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825388923",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:16:28.923582+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825408771",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T17:16:48.771337+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825408795",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T17:16:48.795790+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_rd19fwoq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830470846",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:41:10.846396+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830470921",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:41:10.921400+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830727890",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:45:27.890728+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.206
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830727980",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:45:27.980879+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830729116",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:45:29.116170+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830729167",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:45:29.167960+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830809381",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:46:49.381854+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830809442",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:46:49.442509+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830810483",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:46:50.483601+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.126
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830810530",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:46:50.530233+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830832674",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:47:12.674193+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.126
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830832753",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:47:12.753732+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830833776",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:47:13.776123+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.086
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830833839",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:47:13.839859+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830857043",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:47:37.043991+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830857121",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:47:37.121225+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830858205",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:47:38.205271+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830858260",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:47:38.260307+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830865432",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:47:45.432853+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830865495",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:47:45.495786+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830866582",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-12T18:47:46.582170+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791830866642",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-12T18:47:46.642399+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_tdwwus1l",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142983309",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:29:43.309430+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142983440",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:29:43.440585+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142984333",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-16T09:29:44.333172+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142984392",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-16T09:29:44.392976+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_f2x3e1bq",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005040167",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:57:20.167943+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005040271",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:57:20.271696+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005041330",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:57:21.330505+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_bar_session_duration_bucket_user_type_agg",
+          "chart_type": "bar",
+          "title": "Average User Type by Session Duration Bucket",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.072
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005045426",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:57:25.426477+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005052394",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-26T08:57:32.394110+00:00",
+      "dataset_id": "customers-1000.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "customers-1000.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005053021",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:57:33.021985+00:00",
+      "dataset_id": "dataset_46",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_46"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005053246",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:57:33.246206+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005057007",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T08:57:37.007844+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.104,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005057340",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:57:37.340774+00:00",
+      "dataset_id": "dataset_46",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.184
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.154
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.05
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_46"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005057391",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:57:37.391773+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005059465",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T08:57:39.465877+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.05,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005059784",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:57:39.784727+00:00",
+      "dataset_id": "dataset_46",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.134
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.08
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_46"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005059889",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:57:39.889383+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005092417",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:58:12.417080+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005092497",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:58:12.497771+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005093615",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T08:58:13.615075+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005093675",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T08:58:13.675112+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005217560",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:00:17.560077+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005217660",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:00:17.660326+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_1el98tz2",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006376257",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:19:36.257796+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006376361",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:19:36.361121+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006377384",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:19:37.384247+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.982
+        },
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.934
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.076
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006377440",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:19:37.440910+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006505291",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:21:45.291315+00:00",
+      "dataset_id": "dataset_43",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.134
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.08
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_43"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006505404",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:21:45.404499+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006520896",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:22:00.896878+00:00",
+      "dataset_id": "dataset_6",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "Longitude vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_age_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "User Age vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_longitude_temperature_celsius",
+          "chart_type": "scatter",
+          "title": "Longitude vs Temperature Celsius Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.909
+        },
+        {
+          "candidate_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "title": "Latitude vs Longitude Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.864
+        },
+        {
+          "candidate_id": "cand_bubble_latitude_longitude",
+          "chart_type": "bubble",
+          "title": "Latitude vs Longitude (Sized by Temperature Celsius)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.864
+        },
+        {
+          "candidate_id": "cand_line_timestamp_latitude",
+          "chart_type": "line",
+          "title": "Latitude Trend over Timestamp",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.313
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_6"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006520980",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:22:00.980904+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006525464",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:22:05.464274+00:00",
+      "dataset_id": "dataset_6",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "Longitude vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_age_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "User Age vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_longitude_temperature_celsius",
+          "chart_type": "scatter",
+          "title": "Longitude vs Temperature Celsius Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.909
+        },
+        {
+          "candidate_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "title": "Latitude vs Longitude Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.864
+        },
+        {
+          "candidate_id": "cand_bubble_latitude_longitude",
+          "chart_type": "bubble",
+          "title": "Latitude vs Longitude (Sized by Temperature Celsius)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.864
+        },
+        {
+          "candidate_id": "cand_line_timestamp_latitude",
+          "chart_type": "line",
+          "title": "Latitude Trend over Timestamp",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.313
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_6"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006525533",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:22:05.533303+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006527631",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:22:07.631056+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006528144",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:22:08.144401+00:00",
+      "dataset_id": "dataset_6",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "Longitude vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_age_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "User Age vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_longitude_temperature_celsius",
+          "chart_type": "scatter",
+          "title": "Longitude vs Temperature Celsius Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.939
+        },
+        {
+          "candidate_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "title": "Latitude vs Longitude Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.894
+        },
+        {
+          "candidate_id": "cand_bubble_latitude_longitude",
+          "chart_type": "bubble",
+          "title": "Latitude vs Longitude (Sized by Temperature Celsius)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.864
+        },
+        {
+          "candidate_id": "cand_line_timestamp_latitude",
+          "chart_type": "line",
+          "title": "Latitude Trend over Timestamp",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.313
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_6"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006528478",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:22:08.478770+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006530887",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:22:10.887936+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_age_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006542556",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:22:22.556310+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_temperature_celsius",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.939,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006552388",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:22:32.388063+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.894,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006553357",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:22:33.357985+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.894,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006560967",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-26T09:22:40.967611+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_timestamp_latitude",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.313,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006561383",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:22:41.383459+00:00",
+      "dataset_id": "dataset_6",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "Longitude vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_age_previous_visits_count",
+          "chart_type": "scatter",
+          "title": "User Age vs Previous Visits Count Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_latitude_longitude",
+          "chart_type": "scatter",
+          "title": "Latitude vs Longitude Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.984
+        },
+        {
+          "candidate_id": "cand_scatter_longitude_temperature_celsius",
+          "chart_type": "scatter",
+          "title": "Longitude vs Temperature Celsius Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.979
+        },
+        {
+          "candidate_id": "cand_bubble_latitude_longitude",
+          "chart_type": "bubble",
+          "title": "Latitude vs Longitude (Sized by Temperature Celsius)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.864
+        },
+        {
+          "candidate_id": "cand_line_timestamp_latitude",
+          "chart_type": "line",
+          "title": "Latitude Trend over Timestamp",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.443
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_6"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006561459",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:22:41.459343+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_longitude_previous_visits_count",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006784524",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:26:24.524795+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.106
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006784602",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:26:24.602650+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006784609",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-26T09:26:24.609101+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.106
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006784706",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-26T09:26:24.706415+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_havoauh4",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095606633",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:06:46.634013+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.106
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095606702",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:06:46.702967+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095610621",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:06:50.621400+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.106
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095610722",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:06:50.722178+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095611844",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:06:51.844330+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.106
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095611917",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:06:51.917546+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095626003",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-27T10:07:06.003853+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.99,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095627237",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:07:07.237823+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.106
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095627916",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:07:07.916280+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095634441",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:07:14.441077+00:00",
+      "dataset_id": "dataset_46",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.164
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.104
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.08
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_46"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095634493",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:07:14.493734+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095638837",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-27T10:07:18.837500+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.164,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095639107",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:07:19.107494+00:00",
+      "dataset_id": "dataset_46",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.244
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.154
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.08
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_46"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095639170",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:07:19.170738+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095642195",
+      "entry_type": "recommendation_click",
+      "timestamp": "2026-10-27T10:07:22.195988+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "score": 0.154,
+        "score_source": "mlvis_1.0.0"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095642572",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:07:22.572116+00:00",
+      "dataset_id": "dataset_46",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "title": "Index Trend over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.244
+        },
+        {
+          "candidate_id": "cand_area_Subscription Date_Index",
+          "chart_type": "area",
+          "title": "Index Cumulative Area over Subscription Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.184
+        },
+        {
+          "candidate_id": "cand_hist_Index",
+          "chart_type": "histogram",
+          "title": "Index Spread & Density",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.08
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_46"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095642628",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:07:22.628551+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_line_Subscription Date_Index",
+          "chart_type": "line",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 3,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095676726",
+      "entry_type": "dataset_upload",
+      "timestamp": "2026-10-27T10:07:56.726381+00:00",
+      "dataset_id": "graph_practice_dataset.csv",
+      "session_id": null,
+      "items_or_charts": [],
+      "metadata": {
+        "filename": "graph_practice_dataset.csv",
+        "dataset_id": null,
+        "rows": null
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095677189",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:07:57.189555+00:00",
+      "dataset_id": "dataset_51",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "title": "Experience Years vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_age_salary_inr",
+          "chart_type": "scatter",
+          "title": "Age vs Salary Inr Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_record_id_experience_years",
+          "chart_type": "scatter",
+          "title": "Record Id vs Experience Years Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_record_id_month",
+          "chart_type": "bubble",
+          "title": "Record Id vs Month (Sized by Age)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_month_record_id",
+          "chart_type": "line",
+          "title": "Record Id Trend over Month",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.175
+        },
+        {
+          "candidate_id": "cand_bar_department_month_agg",
+          "chart_type": "bar",
+          "title": "Average Month by Department",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.161
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "dataset_51"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095677236",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:07:57.236864+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_experience_years_salary_inr",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095704220",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-27T10:08:24.220772+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.136
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793095704343",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-27T10:08:24.343900+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_p75lj3xi",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793174466566",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:01:06.566717+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793174466955",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T08:01:06.955503+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793174485222",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:01:25.222616+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793174485457",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T08:01:25.457373+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793174487543",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:01:27.543735+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793174487640",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T08:01:27.640255+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793176146543",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:29:06.543166+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793176151370",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:29:11.370303+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793176172011",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:29:32.011952+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793176172231",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T08:29:32.231173+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793176176005",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T08:29:36.005436+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793176176101",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T08:29:36.101733+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180259885",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:37:39.885832+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180260144",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:37:40.144764+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180261912",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:37:41.912697+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180262024",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:37:42.024934+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180308808",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:38:28.808640+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180309029",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:38:29.029592+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180311469",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:38:31.469919+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180311560",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:38:31.560936+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180410069",
+      "entry_type": "chart_selection",
+      "timestamp": "2026-10-28T09:40:10.069015+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [],
+      "metadata": {
+        "manual_selection": true
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180436962",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:40:36.962805+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180437385",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:40:37.385581+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180441426",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:40:41.426571+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180441723",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:40:41.723329+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180441862",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:40:41.862971+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180441948",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:40:41.948678+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180472811",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:41:12.811389+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180473713",
+      "entry_type": "chart_impression",
+      "timestamp": "2026-10-28T09:41:13.713419+00:00",
+      "dataset_id": null,
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "chart_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "recommendation_id": null
+        }
+      ],
+      "metadata": {
+        "recommendation_count": 6,
+        "source": "mlvis_model",
+        "model_type": "mlvis"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180477445",
+      "entry_type": "visual_recommendation",
+      "timestamp": "2026-10-28T09:41:17.445847+00:00",
+      "dataset_id": "demo_ecommerce",
+      "session_id": "va_session_15znxo7w",
+      "items_or_charts": [
+        {
+          "candidate_id": "cand_scatter_product_category_unit_price",
+          "chart_type": "scatter",
+          "title": "Product Category vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_product_category",
+          "chart_type": "scatter",
+          "title": "User Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_user_type_unit_price",
+          "chart_type": "scatter",
+          "title": "User Type vs Unit Price Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_scatter_device_type_product_category",
+          "chart_type": "scatter",
+          "title": "Device Type vs Product Category Relationship",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_bubble_device_type_user_type",
+          "chart_type": "bubble",
+          "title": "Device Type vs User Type (Sized by Marketing Channel)",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.99
+        },
+        {
+          "candidate_id": "cand_line_visit_date_device_type",
+          "chart_type": "line",
+          "title": "Device Type Trend over Visit Date",
+          "x_column": null,
+          "y_column": null,
+          "score": 0.166
+        }
+      ],
+      "metadata": {
+        "model_type": "mlvis",
+        "model_version": "mlvis_v1.0.0",
+        "dataset_id": "demo_ecommerce"
+      },
+      "feedback": null
+    }
+  ]
+}

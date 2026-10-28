@@ -1,0 +1,2715 @@
+{
+  "tenant_id": "fashion_client",
+  "user_id": "user_101",
+  "created_at": "2026-10-12T16:05:45.311679+00:00",
+  "updated_at": "2026-10-28T09:39:50.736889+00:00",
+  "history_count": 132,
+  "interactions": [
+    {
+      "event_id": "evt_1791821145311",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T16:05:45.311388+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "rank": 1,
+          "display_name": "Franco Leone Men Formal Black Shoes",
+          "score": 0.9953,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "27370",
+          "rank": 2,
+          "display_name": "Tantra Men Singer Blue T-shirt",
+          "score": 0.9907,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "56846",
+          "rank": 3,
+          "display_name": "John Players Men Blue Jeans",
+          "score": 0.9897,
+          "category": "Jeans"
+        },
+        {
+          "item_id": "44749",
+          "rank": 4,
+          "display_name": "Globalite Men Grey Tracker Shoes",
+          "score": 0.9897,
+          "category": "Casual Shoes"
+        },
+        {
+          "item_id": "19259",
+          "rank": 5,
+          "display_name": "Guess Women Trapeze Gold Watch",
+          "score": 0.9895,
+          "category": "Watches"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 98.98,
+        "recommendation_id": "rec_4f176232d552",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821145362",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:05:45.362347+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821145392",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:05:45.392314+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821145411",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:05:45.411318+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19259",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821145426",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:05:45.426950+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821145443",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:05:45.443587+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "44749",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821146879",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T16:05:46.879876+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791821146918",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T16:05:46.918688+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791821146929",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T16:05:46.929678+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "56846",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791821149370",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T16:05:49.370064+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791821149390",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T16:05:49.390979+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_4f176232d552"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791821185715",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T16:06:25.715992+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "rank": 1,
+          "display_name": "Tantra Men Singer Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "6185",
+          "rank": 2,
+          "display_name": "Lee Men's Hentry Smoke Grey T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "32647",
+          "rank": 3,
+          "display_name": "Nike Kids Boys Contemporary Athlete Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "38400",
+          "rank": 4,
+          "display_name": "ADIDAS Mumbai Indians Women Blue Match Jersey",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "2147",
+          "rank": 5,
+          "display_name": "Basics Men Orange Striped Polo T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 41.99,
+        "recommendation_id": "rec_02b6080a505a",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791821185758",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:06:25.758413+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821185776",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:06:25.776251+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "32647",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821185793",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:06:25.793852+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "38400",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821185807",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:06:25.807501+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821185825",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T16:06:25.825111+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2147",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791821186579",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T16:06:26.579171+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "32647",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791821187270",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T16:06:27.270529+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791821187296",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T16:06:27.296026+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791821187311",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T16:06:27.311778+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "32647",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791821189693",
+      "entry_type": "product_feedback_add_to_cart",
+      "timestamp": "2026-10-12T16:06:29.693120+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "32647",
+          "action": "ADD_TO_CART"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "ADD_TO_CART"
+    },
+    {
+      "event_id": "evt_1791821189771",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T16:06:29.771544+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27370",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791821189786",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T16:06:29.786738+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_02b6080a505a"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791825369422",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T17:16:09.422024+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "rank": 1,
+          "display_name": "United Colors of Benetton Men Printed Red T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "16704",
+          "rank": 2,
+          "display_name": "Fila Men High Density Navy Blue Tshirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "53772",
+          "rank": 3,
+          "display_name": "Puma Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "24344",
+          "rank": 4,
+          "display_name": "ADIDAS Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "2779",
+          "rank": 5,
+          "display_name": "Ediots   T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 32.39,
+        "recommendation_id": "rec_64683b9f366a",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825369455",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:16:09.455693+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825369466",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:16:09.466741+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825369489",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:16:09.489831+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825369521",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:16:09.521522+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "24344",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825369540",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:16:09.540519+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2779",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825370902",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T17:16:10.902184+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791825370971",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T17:16:10.971037+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791825370990",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T17:16:10.990146+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791825371005",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T17:16:11.005436+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791825372738",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T17:16:12.738212+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791825373473",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T17:16:13.473268+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791825373489",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T17:16:13.489308+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_64683b9f366a"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792076024099",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-15T14:53:44.099601+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25919",
+          "rank": 1,
+          "display_name": "Femella Women Magenta T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "25040",
+          "rank": 2,
+          "display_name": "Nike Men Sublimated Grey Jersey",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "7530",
+          "rank": 3,
+          "display_name": "Nike Men's Ss Training Yellow T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "17511",
+          "rank": 4,
+          "display_name": "Classic Polo Men Stripes Grey Polo T-Shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "2865",
+          "rank": 5,
+          "display_name": "Inkfruit Men's Men in Blue White T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 95.94,
+        "recommendation_id": "rec_f7bef0fed402",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792076024164",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:53:44.164202+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25919",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076024188",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:53:44.188849+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25040",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076024224",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:53:44.224734+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "17511",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076024248",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:53:44.248775+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7530",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076024259",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-15T14:53:44.259381+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792076025668",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:53:45.668375+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25040",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076025694",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:53:45.694125+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25919",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076025708",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-15T14:53:45.708465+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7530",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792076028160",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-15T14:53:48.160295+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25919",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792076028173",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-15T14:53:48.173251+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25040",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_f7bef0fed402"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142917487",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-16T09:28:37.487305+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "rank": 1,
+          "display_name": "Inkfruit Men's Men in Blue White T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "6185",
+          "rank": 2,
+          "display_name": "Lee Men's Hentry Smoke Grey T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "53772",
+          "rank": 3,
+          "display_name": "Puma Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "16704",
+          "rank": 4,
+          "display_name": "Fila Men High Density Navy Blue Tshirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "4752",
+          "rank": 5,
+          "display_name": "ADIDAS Men's Red Polo T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 81.01,
+        "recommendation_id": "rec_41644c15bc5c",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142917584",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:28:37.584341+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142917601",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:28:37.601674+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142917620",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:28:37.621203+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142917632",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:28:37.632613+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142917645",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:28:37.645997+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "4752",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142919067",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:28:39.067593+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142919082",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:28:39.082412+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142919095",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:28:39.095461+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142921557",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:28:41.557510+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142921574",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:28:41.574565+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142946402",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:06.402264+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2865",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142946416",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:06.417011+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "6185",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142946446",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:06.446761+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142946493",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:06.493370+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "4752",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142946493",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:06.493775+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_41644c15bc5c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142946519",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-16T09:29:06.519716+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "rank": 1,
+          "display_name": "Franco Leone Men Formal Black Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "7392",
+          "rank": 2,
+          "display_name": "Red Tape Men's Brown Semi Formal Shoe",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "55625",
+          "rank": 3,
+          "display_name": "Numero Uno Men Brown Formal Shoes",
+          "score": 0.9914,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "12893",
+          "rank": 4,
+          "display_name": "Hush Puppies Men Jungle Brown Formal Shoes",
+          "score": 0.9849,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "35484",
+          "rank": 5,
+          "display_name": "Hush Puppies Men Jungle Black Formal Shoes",
+          "score": 0.9847,
+          "category": "Formal Shoes"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 94.24,
+        "recommendation_id": "rec_08cd1e2e10d3",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142946732",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:06.732787+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142946755",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:06.755368+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142946772",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:06.772514+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "12893",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142946790",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:06.790508+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142946801",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:06.801304+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7392",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142948220",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:29:08.220266+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142948240",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:29:08.240857+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7392",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142948264",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:29:08.265006+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142948844",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-16T09:29:08.844578+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1792142950715",
+      "entry_type": "product_feedback_add_to_cart",
+      "timestamp": "2026-10-16T09:29:10.715673+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "ADD_TO_CART"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "ADD_TO_CART"
+    },
+    {
+      "event_id": "evt_1792142950729",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:29:10.729775+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7392",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142950759",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:29:10.759766+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142957396",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:17.396259+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "35484",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142957459",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:17.459147+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "12893",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142957473",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:17.473990+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "18872",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142957485",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-16T09:29:17.485375+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "rank": 1,
+          "display_name": "Wildcraft Men Yellow T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "55625",
+          "rank": 2,
+          "display_name": "Numero Uno Men Brown Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "19572",
+          "rank": 3,
+          "display_name": "United Colors of Benetton Men Printed Red T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "16704",
+          "rank": 4,
+          "display_name": "Fila Men High Density Navy Blue Tshirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "53772",
+          "rank": 5,
+          "display_name": "Puma Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 121.01,
+        "recommendation_id": "rec_beeac26ce131",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1792142957516",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-16T09:29:17.516644+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "7392",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_08cd1e2e10d3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1792142957664",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:17.664108+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142957689",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:17.689033+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142957711",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:17.711186+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142957721",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:17.721982+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142957736",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-16T09:29:17.736075+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1792142959154",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:29:19.154554+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142959172",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:29:19.172246+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142959188",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-16T09:29:19.188745+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1792142961665",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:29:21.665657+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1792142961681",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-16T09:29:21.681540+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_beeac26ce131"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005019760",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T08:56:59.760080+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "rank": 1,
+          "display_name": "Wildcraft Men Yellow T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "55625",
+          "rank": 2,
+          "display_name": "Numero Uno Men Brown Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "19572",
+          "rank": 3,
+          "display_name": "United Colors of Benetton Men Printed Red T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "16704",
+          "rank": 4,
+          "display_name": "Fila Men High Density Navy Blue Tshirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "53772",
+          "rank": 5,
+          "display_name": "Puma Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 274.76,
+        "recommendation_id": "rec_5cf3fc8d7b7c",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005019885",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:56:59.885364+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005019904",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:56:59.904173+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005019926",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:56:59.926029+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005019941",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:56:59.941198+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005019950",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:56:59.950688+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005021392",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:57:01.392796+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005021431",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T08:57:01.431810+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1793005021455",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:57:01.455575+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005021473",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:57:01.473738+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005022843",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-26T08:57:02.843216+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1793005023876",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T08:57:03.876697+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005023901",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T08:57:03.901429+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005024160",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:57:04.160906+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005024180",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:57:04.180270+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005024218",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:57:04.218778+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005024237",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T08:57:04.237962+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "rank": 1,
+          "display_name": "Wildcraft Men Yellow T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "55625",
+          "rank": 2,
+          "display_name": "Numero Uno Men Brown Formal Shoes",
+          "score": 0.9999,
+          "category": "Formal Shoes"
+        },
+        {
+          "item_id": "19572",
+          "rank": 3,
+          "display_name": "United Colors of Benetton Men Printed Red T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "16704",
+          "rank": 4,
+          "display_name": "Fila Men High Density Navy Blue Tshirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "53772",
+          "rank": 5,
+          "display_name": "Puma Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 109.64,
+        "recommendation_id": "rec_718b32dd1165",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793005024259",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T08:57:04.259060+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_5cf3fc8d7b7c"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793005024410",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:57:04.410615+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005024431",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:57:04.431180+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005024446",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:57:04.446051+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005024461",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:57:04.461121+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005024474",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T08:57:04.474072+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793005025927",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:57:05.927379+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005025946",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:57:05.946221+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005025966",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T08:57:05.966221+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793005028401",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T08:57:08.401291+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1793005028419",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T08:57:08.419997+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "39499",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793005028439",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T08:57:08.439472+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55625",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_718b32dd1165"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793180386549",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-28T09:39:46.549572+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "rank": 1,
+          "display_name": "United Colors of Benetton Men Printed Red T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "16704",
+          "rank": 2,
+          "display_name": "Fila Men High Density Navy Blue Tshirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "53772",
+          "rank": 3,
+          "display_name": "Puma Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "24344",
+          "rank": 4,
+          "display_name": "ADIDAS Men Blue T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        },
+        {
+          "item_id": "2779",
+          "rank": 5,
+          "display_name": "Ediots   T-shirt",
+          "score": 0.9999,
+          "category": "Tshirts"
+        }
+      ],
+      "metadata": {
+        "model_version": "v1",
+        "latency_ms": 352.56,
+        "recommendation_id": "rec_8efee509e2bc",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793180386683",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-28T09:39:46.683970+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793180386699",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-28T09:39:46.699827+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793180386733",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-28T09:39:46.733283+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793180386762",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-28T09:39:46.762195+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "2779",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793180386779",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-28T09:39:46.779961+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "24344",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793180388176",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-28T09:39:48.176258+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793180388197",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-28T09:39:48.197268+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793180388218",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-28T09:39:48.218358+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "53772",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793180390661",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-28T09:39:50.661852+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "19572",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793180390683",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-28T09:39:50.683061+00:00",
+      "dataset_id": "catalog_fashion_client",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "16704",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_8efee509e2bc"
+      },
+      "feedback": "LONG_VIEW"
+    }
+  ]
+}

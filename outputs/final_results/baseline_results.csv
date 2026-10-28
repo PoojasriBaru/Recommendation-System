@@ -1,0 +1,16 @@
+Model,Cohort,Sample_Count,Precision@5,Recall@5,NDCG@5,HitRate@5,Precision@10,Recall@10,NDCG@10,HitRate@10,MeanRank
+Popularity,Overall,1377,0.0106,0.053,0.032,0.053,0.0096,0.0959,0.0458,0.0959,50.51
+Popularity,Cold-Start,777,0.0111,0.0553,0.0347,0.0553,0.0098,0.0978,0.0484,0.0978,50.5
+Popularity,Warm-Start,600,0.01,0.05,0.0285,0.05,0.0093,0.0933,0.0424,0.0933,50.53
+Content-Based,Overall,1377,0.0298,0.1489,0.1374,0.1489,0.0194,0.1939,0.1518,0.1939,31.32
+Content-Based,Cold-Start,777,0.0103,0.0515,0.0312,0.0515,0.0109,0.1094,0.0499,0.1094,36.01
+Content-Based,Warm-Start,600,0.055,0.275,0.275,0.275,0.0303,0.3033,0.2836,0.3033,25.25
+Collaborative Filtering,Overall,1377,0.0109,0.0545,0.0308,0.0545,0.0102,0.1024,0.0464,0.1024,49.89
+Collaborative Filtering,Cold-Start,777,0.0118,0.0592,0.0342,0.0592,0.0109,0.1094,0.0505,0.1094,49.86
+Collaborative Filtering,Warm-Start,600,0.0097,0.0483,0.0264,0.0483,0.0093,0.0933,0.0411,0.0933,49.94
+Multi-Modal (No Adaptation),Overall,1377,0.0129,0.0646,0.0401,0.0646,0.0117,0.1169,0.0568,0.1169,48.09
+Multi-Modal (No Adaptation),Cold-Start,777,0.0136,0.0682,0.0415,0.0682,0.012,0.1197,0.058,0.1197,48.18
+Multi-Modal (No Adaptation),Warm-Start,600,0.012,0.06,0.0382,0.06,0.0113,0.1133,0.0553,0.1133,47.98
+Proposed Cold-Start Multi-Modal,Overall,1377,0.0121,0.0603,0.0352,0.0603,0.0105,0.1046,0.0493,0.1046,49.98
+Proposed Cold-Start Multi-Modal,Cold-Start,777,0.0124,0.0618,0.0353,0.0618,0.0111,0.1107,0.051,0.1107,49.59
+Proposed Cold-Start Multi-Modal,Warm-Start,600,0.0117,0.0583,0.0351,0.0583,0.0097,0.0967,0.047,0.0967,50.49

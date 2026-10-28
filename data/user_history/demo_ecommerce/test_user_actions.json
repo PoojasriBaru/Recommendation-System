@@ -1,0 +1,333 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "test_user_actions",
+  "created_at": "2026-10-12T15:45:49.082316+00:00",
+  "updated_at": "2026-10-12T15:49:22.280264+00:00",
+  "history_count": 18,
+  "interactions": [
+    {
+      "event_id": "evt_1791819949081",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T15:45:49.081901+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_1",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": null
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791819949096",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T15:45:49.096054+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_2",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": null
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791819949119",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T15:45:49.119560+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_3",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": null
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791819949142",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T15:45:49.142765+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_4",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": null
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791819949166",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-12T15:45:49.166644+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_5",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": null
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1791819949192",
+      "entry_type": "product_feedback_add_to_cart",
+      "timestamp": "2026-10-12T15:45:49.192866+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_6",
+          "action": "ADD_TO_CART"
+        }
+      ],
+      "metadata": {
+        "position": 6,
+        "recommendation_id": null
+      },
+      "feedback": "ADD_TO_CART"
+    },
+    {
+      "event_id": "evt_1791819949218",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T15:45:49.218201+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_7",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 7,
+        "recommendation_id": null
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791819949247",
+      "entry_type": "product_feedback_accept",
+      "timestamp": "2026-10-12T15:45:49.247167+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_8",
+          "action": "ACCEPT"
+        }
+      ],
+      "metadata": {
+        "position": 8,
+        "recommendation_id": null
+      },
+      "feedback": "ACCEPT"
+    },
+    {
+      "event_id": "evt_1791819949270",
+      "entry_type": "product_feedback_reject",
+      "timestamp": "2026-10-12T15:45:49.270667+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_9",
+          "action": "REJECT"
+        }
+      ],
+      "metadata": {
+        "position": 9,
+        "recommendation_id": null
+      },
+      "feedback": "REJECT"
+    },
+    {
+      "event_id": "evt_1791820162033",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T15:49:22.033687+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_1",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": null
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791820162057",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T15:49:22.057986+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_2",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": null
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791820162084",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T15:49:22.084872+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_3",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": null
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791820162113",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T15:49:22.113076+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_4",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": null
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791820162143",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-12T15:49:22.143300+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_5",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": null
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1791820162172",
+      "entry_type": "product_feedback_add_to_cart",
+      "timestamp": "2026-10-12T15:49:22.172457+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_6",
+          "action": "ADD_TO_CART"
+        }
+      ],
+      "metadata": {
+        "position": 6,
+        "recommendation_id": null
+      },
+      "feedback": "ADD_TO_CART"
+    },
+    {
+      "event_id": "evt_1791820162200",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T15:49:22.200583+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_7",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 7,
+        "recommendation_id": null
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1791820162231",
+      "entry_type": "product_feedback_accept",
+      "timestamp": "2026-10-12T15:49:22.231488+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_8",
+          "action": "ACCEPT"
+        }
+      ],
+      "metadata": {
+        "position": 8,
+        "recommendation_id": null
+      },
+      "feedback": "ACCEPT"
+    },
+    {
+      "event_id": "evt_1791820162262",
+      "entry_type": "product_feedback_reject",
+      "timestamp": "2026-10-12T15:49:22.262278+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_9",
+          "action": "REJECT"
+        }
+      ],
+      "metadata": {
+        "position": 9,
+        "recommendation_id": null
+      },
+      "feedback": "REJECT"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "tenant_id": "context_aware_ar_interaction",
+  "user_id": "U153",
+  "created_at": "2026-10-12T17:11:15.485108+00:00",
+  "updated_at": "2026-10-26T09:23:12.594461+00:00",
+  "history_count": 24,
+  "interactions": [
+    {
+      "event_id": "evt_1791825075484",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-12T17:11:15.484807+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "rank": 1,
+          "display_name": "Temple Tradition: Rituals (Location L015)",
+          "score": 0.877,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L003",
+          "rank": 2,
+          "display_name": "Folk Dance: Rituals (Location L003)",
+          "score": 0.848,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L005",
+          "rank": 3,
+          "display_name": "Ruins Info: Rituals (Location L005)",
+          "score": 0.7952,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L001",
+          "rank": 4,
+          "display_name": "Temple Tradition: Rituals (Location L001)",
+          "score": 0.6614,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L008",
+          "rank": 5,
+          "display_name": "Ruins Info: Rituals (Location L008)",
+          "score": 0.6529,
+          "category": "Rituals"
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 106.87,
+        "recommendation_id": "rec_91547ec803e3",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1791825075518",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:11:15.518297+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825075536",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:11:15.536174+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L005",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825075549",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:11:15.549737+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825075565",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:11:15.565354+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L008",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 5,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825075582",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-12T17:11:15.582594+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L001",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1791825077042",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T17:11:17.042890+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791825077061",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T17:11:17.061030+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791825077076",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-12T17:11:17.076806+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L005",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1791825079534",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T17:11:19.534071+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791825079549",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-12T17:11:19.549497+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1791825082457",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-12T17:11:22.457180+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "CLICK"
+    },
+    {
+      "event_id": "evt_1791825084712",
+      "entry_type": "product_feedback_purchase",
+      "timestamp": "2026-10-12T17:11:24.712228+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "PURCHASE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_91547ec803e3"
+      },
+      "feedback": "PURCHASE"
+    },
+    {
+      "event_id": "evt_1793006584176",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T09:23:04.176032+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "rank": 1,
+          "display_name": "Temple Tradition: Rituals (Location L015)",
+          "score": 0.9999,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L003",
+          "rank": 2,
+          "display_name": "Folk Dance: Rituals (Location L003)",
+          "score": 0.9616,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L005",
+          "rank": 3,
+          "display_name": "Ruins Info: Rituals (Location L005)",
+          "score": 0.8329,
+          "category": "Rituals"
+        },
+        {
+          "item_id": "L001",
+          "rank": 4,
+          "display_name": "Temple Tradition: Rituals (Location L001)",
+          "score": 0.6614,
+          "category": "Rituals"
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 37.29,
+        "recommendation_id": "rec_b8c49dcc9370",
+        "status": "warm_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006584241",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:23:04.241405+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006584251",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:23:04.251716+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L001",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006584285",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:23:04.285615+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L005",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006584304",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:23:04.304220+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006585761",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:23:05.761779+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L005",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006585780",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:23:05.780984+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006585798",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:23:05.798445+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006588265",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:23:08.265737+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L015",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006588287",
+      "entry_type": "product_feedback_long_view",
+      "timestamp": "2026-10-26T09:23:08.287030+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "LONG_VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "LONG_VIEW"
+    },
+    {
+      "event_id": "evt_1793006592569",
+      "entry_type": "product_feedback_click",
+      "timestamp": "2026-10-26T09:23:12.569874+00:00",
+      "dataset_id": "catalog_context_aware_ar_interaction",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "L003",
+          "action": "CLICK"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_b8c49dcc9370"
+      },
+      "feedback": "CLICK"
+    }
+  ]
+}

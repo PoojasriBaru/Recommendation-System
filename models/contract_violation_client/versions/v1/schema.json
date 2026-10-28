@@ -1,0 +1,9 @@
+{
+  "user_id": "USER_ID",
+  "item_id": "ITEM_ID",
+  "feat_c1": "CONTENT_FEATURE",
+  "feat_c2": "CONTENT_FEATURE",
+  "ctx_1": "CONTEXT_FEATURE",
+  "ctx_2": "CONTEXT_FEATURE",
+  "rating": "TARGET"
+}

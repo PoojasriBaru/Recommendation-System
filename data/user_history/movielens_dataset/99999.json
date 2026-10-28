@@ -1,0 +1,251 @@
+{
+  "tenant_id": "movielens_dataset",
+  "user_id": "99999",
+  "created_at": "2026-10-26T09:18:57.397584+00:00",
+  "updated_at": "2026-10-26T09:18:59.590348+00:00",
+  "history_count": 12,
+  "interactions": [
+    {
+      "event_id": "evt_1793006337397",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:57.397137+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3711",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006337471",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:57.471183+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "25773",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006337643",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:57.643557+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "49265",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006337677",
+      "entry_type": "product_feedback_ignore",
+      "timestamp": "2026-10-26T09:18:57.677780+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "1939",
+          "action": "IGNORE"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_a501cac0dcc3"
+      },
+      "feedback": "IGNORE"
+    },
+    {
+      "event_id": "evt_1793006337910",
+      "entry_type": "product_recommendation",
+      "timestamp": "2026-10-26T09:18:57.910526+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "26122",
+          "rank": 1,
+          "display_name": "Onibaba (1964)",
+          "score": 0.9111,
+          "category": null
+        },
+        {
+          "item_id": "3429",
+          "rank": 2,
+          "display_name": "Creature Comforts (1989)",
+          "score": 0.9107,
+          "category": null
+        },
+        {
+          "item_id": "55363",
+          "rank": 3,
+          "display_name": "Assassination of Jesse James by the Coward Robert Ford, The (2007)",
+          "score": 0.9087,
+          "category": null
+        },
+        {
+          "item_id": "27820",
+          "rank": 4,
+          "display_name": "Story of the Weeping Camel, The (Geschichte vom weinenden Kamel, Die) (2003)",
+          "score": 0.9077,
+          "category": null
+        }
+      ],
+      "metadata": {
+        "model_version": "v2",
+        "latency_ms": 526.64,
+        "recommendation_id": "rec_7fb318299dff",
+        "status": "cold_start"
+      },
+      "feedback": null
+    },
+    {
+      "event_id": "evt_1793006337981",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:57.981418+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55363",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006337997",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:57.997278+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006338014",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:58.014429+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "26122",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006338030",
+      "entry_type": "product_feedback_impression",
+      "timestamp": "2026-10-26T09:18:58.030143+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "27820",
+          "action": "IMPRESSION"
+        }
+      ],
+      "metadata": {
+        "position": 4,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "IMPRESSION"
+    },
+    {
+      "event_id": "evt_1793006339497",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:59.497896+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "26122",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006339519",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:59.519915+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "3429",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 2,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "VIEW"
+    },
+    {
+      "event_id": "evt_1793006339541",
+      "entry_type": "product_feedback_view",
+      "timestamp": "2026-10-26T09:18:59.541637+00:00",
+      "dataset_id": "catalog_movielens_dataset",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "55363",
+          "action": "VIEW"
+        }
+      ],
+      "metadata": {
+        "position": 3,
+        "recommendation_id": "rec_7fb318299dff"
+      },
+      "feedback": "VIEW"
+    }
+  ]
+}

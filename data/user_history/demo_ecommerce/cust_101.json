@@ -1,0 +1,81 @@
+{
+  "tenant_id": "demo_ecommerce",
+  "user_id": "cust_101",
+  "created_at": "2026-10-12T15:03:55.478167+00:00",
+  "updated_at": "2026-10-12T15:49:21.047780+00:00",
+  "history_count": 4,
+  "interactions": [
+    {
+      "event_id": "evt_1791817435477",
+      "entry_type": "product_feedback_accept",
+      "timestamp": "2026-10-12T15:03:55.477639+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_505",
+          "action": "ACCEPT"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": null
+      },
+      "feedback": "ACCEPT"
+    },
+    {
+      "event_id": "evt_1791819948100",
+      "entry_type": "product_feedback_accept",
+      "timestamp": "2026-10-12T15:45:48.100135+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_505",
+          "action": "ACCEPT"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": null
+      },
+      "feedback": "ACCEPT"
+    },
+    {
+      "event_id": "evt_1791820119584",
+      "entry_type": "product_feedback_accept",
+      "timestamp": "2026-10-12T15:48:39.584404+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_505",
+          "action": "ACCEPT"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": null
+      },
+      "feedback": "ACCEPT"
+    },
+    {
+      "event_id": "evt_1791820161036",
+      "entry_type": "product_feedback_accept",
+      "timestamp": "2026-10-12T15:49:21.036799+00:00",
+      "dataset_id": "catalog_demo_ecommerce",
+      "session_id": null,
+      "items_or_charts": [
+        {
+          "item_id": "prod_505",
+          "action": "ACCEPT"
+        }
+      ],
+      "metadata": {
+        "position": 1,
+        "recommendation_id": null
+      },
+      "feedback": "ACCEPT"
+    }
+  ]
+}

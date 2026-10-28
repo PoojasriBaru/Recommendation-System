@@ -1,0 +1,295 @@
+
+========================================================
+Server launched at Tue Sep 29 20:01:39 2026
+========================================================
+INFO:     Started server process [25728]
+INFO:     Waiting for application startup.
+2026-09-29 20:01:49,066 [INFO] Initializing database tables...
+2026-09-29 20:01:49,087 [INFO] Verifying canonical reference client registration (demo_ecommerce)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52968 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50811 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49714 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49731 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49743 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49756 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49758 - "GET /api/health HTTP/1.1" 200 OK
+
+========================================================
+Server launched at Tue Sep 29 20:05:37 2026
+========================================================
+INFO:     Started server process [18996]
+INFO:     Waiting for application startup.
+2026-09-29 20:05:45,252 [INFO] Initializing database tables...
+2026-09-29 20:05:45,257 [INFO] Verifying canonical reference client registration (demo_ecommerce)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54139 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54143 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54144 - "GET /api/clients HTTP/1.1" 200 OK
+2026-09-29 20:05:58,222 [INFO] Loaded demo_ecommerce catalog (899 products) and profiles (7192 customers).
+2026-09-29 20:05:58,222 [INFO] Successfully cached model entry for (demo_ecommerce, v1).
+INFO:     127.0.0.1:54145 - "POST /api/recommend HTTP/1.1" 200 OK
+2026-09-29 20:05:58,773 [INFO] Loaded generic client 'context_aware_ar_interaction' catalog (15 items) and 297 profiles.
+2026-09-29 20:05:58,773 [INFO] Successfully cached model entry for (context_aware_ar_interaction, v2).
+INFO:     127.0.0.1:54146 - "POST /api/recommend HTTP/1.1" 200 OK
+2026-09-29 20:05:59,555 [INFO] Loaded generic client 'movielens_dataset' catalog (6233 items) and 762 profiles.
+2026-09-29 20:05:59,558 [INFO] Successfully cached model entry for (movielens_dataset, v1).
+INFO:     127.0.0.1:54147 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54148 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54149 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54150 - "GET /admin HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54151 - "GET /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "GET /admin/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54153 - "GET /admin/clients/demo_ecommerce/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54154 - "GET /admin/clients/demo_ecommerce/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54155 - "GET /admin/clients/demo_ecommerce/training HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54156 - "GET /admin/clients/demo_ecommerce/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54157 - "GET /admin/clients/demo_ecommerce/analytics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54158 - "GET /admin/clients/demo_ecommerce/feedback HTTP/1.1" 200 OK
+
+========================================================
+Server launched at Tue Sep 29 20:09:52 2026
+========================================================
+INFO:     Started server process [13360]
+INFO:     Waiting for application startup.
+2026-09-29 20:09:57,502 [INFO] Initializing database tables...
+2026-09-29 20:09:57,509 [INFO] Verifying canonical reference client registration (demo_ecommerce)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56121 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62351 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62351 - "GET /assets/index-CD2_Av3C.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50906 - "GET /assets/vendor-icons-BkBlTl4r.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61169 - "GET /assets/index-BV-TB87M.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59028 - "GET /assets/vendor-react-Daa6jhK8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51897 - "GET /assets/vendor-charts-DBfNKJF9.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65007 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61080 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65007 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65007 - "OPTIONS /api/feedback?client_id=movielens_dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61080 - "OPTIONS /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62352 - "OPTIONS /api/clients/movielens_dataset/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61080 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65007 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51897 - "GET /vite.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65007 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61080 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62352 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62352 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+
+========================================================
+Server launched at Wed Sep 30 00:38:01 2026
+========================================================
+
+========================================================
+Server launched at Wed Sep 30 00:39:15 2026
+========================================================
+INFO:     Started server process [8872]
+INFO:     Waiting for application startup.
+2026-09-30 00:39:35,545 [INFO] Initializing database tables...
+2026-09-30 00:39:35,589 [INFO] Verifying canonical reference client registration (demo_ecommerce)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59650 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56191 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /assets/vendor-icons-BkBlTl4r.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61622 - "GET /assets/index-BV-TB87M.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57595 - "GET /assets/vendor-charts-DBfNKJF9.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58609 - "GET /assets/vendor-react-Daa6jhK8.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56191 - "GET /assets/index-CD2_Av3C.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59840 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50053 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50053 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59840 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59840 - "OPTIONS /api/feedback?client_id=movielens_dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50053 - "OPTIONS /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57212 - "OPTIONS /api/clients/movielens_dataset/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57212 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59840 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51155 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57212 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52618 - "GET /vite.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50053 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50053 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55161 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56528 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49757 - "OPTIONS /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "OPTIONS /api/clients/railrocket_recommender_system/dataset/preview?limit=10&offset=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49757 - "GET /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50653 - "GET /api/clients/railrocket_recommender_system/dataset/preview?limit=10&offset=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62211 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62211 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64339 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65139 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65139 - "GET /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53727 - "GET /api/clients/railrocket_recommender_system/dataset/preview?limit=10&offset=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "OPTIONS /api/clients/railrocket_recommender_system/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /api/clients/railrocket_recommender_system/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "OPTIONS /api/feedback?client_id=railrocket_recommender_system HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51387 - "GET /api/feedback?client_id=railrocket_recommender_system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53727 - "OPTIONS /api/clients/railrocket_recommender_system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63420 - "GET /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53727 - "GET /api/clients/railrocket_recommender_system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /api/clients/railrocket_recommender_system/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "OPTIONS /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53727 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54468 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54468 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54468 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54468 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54468 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54468 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+
+========================================================
+Server launched at Wed Sep 30 00:41:48 2026
+========================================================
+INFO:     Started server process [8404]
+INFO:     Waiting for application startup.
+2026-09-30 00:41:55,784 [INFO] Initializing database tables...
+2026-09-30 00:41:55,796 [INFO] Verifying canonical reference client registration (demo_ecommerce)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61739 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "OPTIONS /api/feedback?client_id=railrocket_recommender_system HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "OPTIONS /api/clients/railrocket_recommender_system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52240 - "OPTIONS /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62911 - "GET /api/feedback?client_id=railrocket_recommender_system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52240 - "GET /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62911 - "GET /api/feedback?client_id=railrocket_recommender_system HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52240 - "GET /api/clients/railrocket_recommender_system/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61985 - "GET /api/clients/railrocket_recommender_system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "GET /api/clients/railrocket_recommender_system/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "OPTIONS /api/clients/railrocket_recommender_system/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "GET /api/clients/railrocket_recommender_system/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "OPTIONS /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:61985 - "POST /api/recommend HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:58586 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60814 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49886 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49886 - "OPTIONS /api/clients/context_aware_ar_interaction/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49886 - "GET /api/clients/context_aware_ar_interaction/schema HTTP/1.1" 200 OK
+2026-09-30 00:43:08,535 [INFO] Loaded generic client 'context_aware_ar_interaction' catalog (15 items) and 297 profiles.
+2026-09-30 00:43:08,537 [INFO] Successfully cached model entry for (context_aware_ar_interaction, v2).
+INFO:     127.0.0.1:49827 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49827 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54325 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50230 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52913 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64464 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49737 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60128 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60128 - "OPTIONS /api/clients/movielens_dataset/schema HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60128 - "GET /api/clients/movielens_dataset/schema HTTP/1.1" 200 OK
+2026-09-30 00:44:32,366 [INFO] Loaded generic client 'movielens_dataset' catalog (6233 items) and 762 profiles.
+2026-09-30 00:44:32,372 [INFO] Successfully cached model entry for (movielens_dataset, v1).
+INFO:     127.0.0.1:60128 - "POST /api/recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54385 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64992 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60468 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60034 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52824 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56053 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49541 - "GET /api/health HTTP/1.1" 200 OK
+
+========================================================
+Server launched at Wed Sep 30 10:07:07 2026
+========================================================
+INFO:     Started server process [6624]
+INFO:     Waiting for application startup.
+2026-09-30 10:07:19,879 [INFO] Initializing database tables...
+2026-09-30 10:07:19,901 [INFO] Verifying canonical reference client registration (demo_ecommerce)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60832 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63478 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63478 - "GET /assets/index-z4WwUqKE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50266 - "GET /assets/vendor-icons-BjGWRb1O.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59701 - "GET /assets/index-6lxruRi2.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50677 - "GET /assets/vendor-react-Daa6jhK8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60224 - "GET /assets/vendor-charts-DBfNKJF9.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53792 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53792 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53792 - "OPTIONS /api/feedback?client_id=movielens_dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "OPTIONS /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53792 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51760 - "OPTIONS /api/clients/movielens_dataset/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61421 - "OPTIONS /api/clients/movielens_dataset/dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64260 - "OPTIONS /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53792 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59701 - "GET /vite.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49359 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61421 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49445 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65139 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64085 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49603 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49603 - "OPTIONS /api/clients/railrocket_recommender_system?delete_physical_files=false HTTP/1.1" 200 OK
+2026-09-30 10:08:09,454 [INFO] Client 'railrocket_recommender_system' deleted successfully. DB records removed: datasets=2, schemas=0, runs=0, models=0, recs=0, feedback=0. Physical files deleted: False
+INFO:     127.0.0.1:49603 - "DELETE /api/clients/railrocket_recommender_system?delete_physical_files=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49603 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64240 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61951 - "OPTIONS /api/clients/movielens_dataset/dataset/preview?limit=10&offset=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51388 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60271 - "GET /vite.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61951 - "GET /api/clients/movielens_dataset/dataset/preview?limit=10&offset=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61951 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59082 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51388 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51388 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59767 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49362 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49362 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56954 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53011 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49940 - "GET /vite.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62826 - "GET /admin HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62826 - "GET /assets/index-z4WwUqKE.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65392 - "GET /assets/vendor-react-Daa6jhK8.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53159 - "GET /assets/index-6lxruRi2.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63364 - "GET /assets/vendor-icons-BjGWRb1O.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61847 - "GET /assets/vendor-charts-DBfNKJF9.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:49603 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49534 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64863 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57107 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57167 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57167 - "GET /api/feedback?client_id=movielens_dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64863 - "GET /api/clients/movielens_dataset/dataset HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57107 - "GET /api/clients/movielens_dataset/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62272 - "GET /admin/clients/movielens_dataset/feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62272 - "GET /admin/clients/movielens_dataset/feedback HTTP/1.1" 200 OK
+
+========================================================
+Server launched at Thu Oct  8 00:00:08 2026
+========================================================
+
+========================================================
+Server launched at Thu Oct  8 00:57:59 2026
+========================================================
+
+========================================================
+Server launched at Thu Oct  8 10:34:13 2026
+========================================================
+
+========================================================
+Server launched at Fri Oct  9 00:53:00 2026
+========================================================
+
+========================================================
+Server launched at Mon Oct 12 21:53:30 2026
+========================================================
