@@ -1,3 +1,6 @@
+# Recommendation-System
+Recommendation system that suggests relevant items to users based on their preferences, past interactions, and contextual information. The system aims to provide personalized recommendations and improve user experience using data analysis and machine learning techniques.
+
 # Real-Time Context-Aware Multi-Client Recommendation Platform: Mitigating Cold-Start via Multi-Modal Behavioral Fusion
 
 A production-grade, multi-client Machine Learning recommendation platform and research system designed to address the user cold-start problem in e-commerce using **Multi-Modal Neural Fusion**, **Dynamic Cold-Start Adaptive Gating**, **FastAPI** real-time serving, and a modern **React** administration and live recommendation dashboard.
